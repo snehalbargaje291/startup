@@ -1,150 +1,6 @@
-<!--<div class="footer ">
-    <div class="underline-parent ">
-        <div class="underline-icon"></div>
-        <div class="frame-wrapper ">
-            <div class="icon-copyright-parent">
-                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M10.5003 18.3334C15.1027 18.3334 18.8337 14.6025 18.8337 10.0001C18.8337 5.39771 15.1027 1.66675 10.5003 1.66675C5.89795 1.66675 2.16699 5.39771 2.16699 10.0001C2.16699 14.6025 5.89795 18.3334 10.5003 18.3334Z"
-                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                        d="M13.0003 8.14823C13.0003 8.14823 11.9709 6.66675 10.2552 6.66675C8.53954 6.66675 7.16699 8.14823 7.16699 10.0001C7.16699 11.8519 8.53954 13.3334 10.2552 13.3334C11.9709 13.3334 13.0003 11.8519 13.0003 11.8519"
-                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-
-                <div class="exclusivegmailcom">
-                    Copyright Rimel 2022. All right reserved
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="frame-parent p-4">
-        <div class="frame-group">
-            <div class="frame-container">
-                <div class="frame-container">
-                    <div class="logo">
-                        <a href="#" class="exclusive">Startup IDEA</a>
-                    </div>
-                    <a href="#" class="subscribe">Subscribe</a>
-                </div>
-                <a href="#" class="get-10-off">Get 10% off your first order</a>
-            </div>
-            <div class="send-mail">
-                <input type="text" class="enter-your-email" placeholder="Enter your email">
-                <svg class="input-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                </svg>
-            </div>
-        </div>
-        <div class="frame-container">
-            <div class="support">Support</div>
-            <div class="bijoy-sarani-dhaka-dh-1515-parent">
-                111 Bijoy sarani, Dhaka,<br> DH 1515, Bangladesh.
-                <a href="#" class="exclusivegmailcom">exclusive&#64;gmail.com</a>
-                <a href="#" class="exclusivegmailcom">+88015-88888-9999</a>
-            </div>
-        </div>
-        <div class="frame-container">
-            <div class="support">Account</div>
-            <div class="bijoy-sarani-dhaka-dh-1515-parent">
-                <a routerLink="./account" routerLinkActive="active" ariaCurrentWhenActive="page" class="exclusivegmailcom">My Account</a>
-                <a routerLink="./signup" routerLinkActive="active" ariaCurrentWhenActive="page" class="exclusivegmailcom">Login / Register</a>
-                <a href="#" class="exclusivegmailcom">Cart</a>
-                <a href="#" class="exclusivegmailcom">Wishlist</a>
-                <a href="#" class="exclusivegmailcom">Shop</a>
-            </div>
-        </div>
-        <div class="frame-container">
-            <div class="support">Quick Link</div>
-            <div class="bijoy-sarani-dhaka-dh-1515-parent">
-                <a href="#" class="exclusivegmailcom">Privacy Policy</a>
-                <a href="#" class="exclusivegmailcom">Terms Of Use</a>
-                <a href="#" class="exclusivegmailcom">FAQ</a>
-                <a href="#" class="exclusivegmailcom">Contact</a>
-            </div>
-        </div>
-        <div class="frame-container">
-            <div class="frame-container">
-                <div class="support">Download App</div>
-                <div class="save-3-with-app-new-user-only-parent">
-                    <div class="save-3-with">Save $3 with App New User Only</div>
-                    <div class="qr-code-parent">
-                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g clip-path="url(#clip0_12_108)">
-                                <rect width="80" height="80" fill="black" />
-                                <rect x="0.75" y="0.75" width="78.5" height="78.5" fill="url(#pattern0)" stroke="white"
-                                    stroke-width="2.5" />
-                            </g>
-                            <defs>
-                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                    <use xlink:href="#image0_12_108" transform="scale(0.00757576)" />
-                                </pattern>
-                                <clipPath id="clip0_12_108">
-                                    <rect width="80" height="80" fill="white" />
-                                </clipPath>
-                                <image id="image0_12_108" width="132" height="132"
-                                    xlink:href="data:image/jpeg;base64,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" />
-                            </defs>
-                        </svg>
-
-                        <div class="googleplay-parent">
-                            <img class="googleplay-icon" alt=""
-                                src="https://freelogopng.com/images/all_img/1664287128google-play-store-logo-png.png" />
-                            <img class="appstore-icon" alt=""
-                                src="https://cdn.pixabay.com/photo/2021/09/22/16/07/app-store-6647240_1280.png" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="icon-facebook-parent">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M13 10H17.5L17 12H13V21H11V12H7V10H11V8.128C11 6.345 11.186 5.698 11.534 5.046C11.875 4.40181 12.4018 3.87501 13.046 3.534C13.698 3.186 14.345 3 16.128 3C16.65 3 17.108 3.05 17.5 3.15V5H16.128C14.804 5 14.401 5.078 13.99 5.298C13.686 5.46 13.46 5.686 13.298 5.99C13.078 6.401 13 6.804 13 8.128V10Z"
-                        fill="white" />
-                </svg>
-
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_248_1479)">
-                        <path
-                            d="M12.905 8.84651L12.905 8.84646C12.9194 8.06035 13.2418 7.3113 13.8028 6.76049C14.3639 6.20969 15.1188 5.90116 15.905 5.90129L12.905 8.84651ZM12.905 8.84651L12.877 10.4213M12.905 8.84651L12.877 10.4213M4.75811 7.80857L4.89001 7.91846C6.76679 9.48211 8.71781 10.4182 10.7495 10.6952C10.7495 10.6952 10.7495 10.6952 10.7495 10.6952L12.3104 10.9072L4.75811 7.80857ZM4.75811 7.80857L4.72759 7.97751M4.75811 7.80857L4.72759 7.97751M4.72759 7.97751C4.42576 9.64819 4.5683 11.0709 5.1479 12.3018C5.72718 13.532 6.73827 14.5605 8.15577 15.4519L8.15579 15.452M4.72759 7.97751L8.15579 15.452M8.15579 15.452L9.90279 16.55L9.954 16.4685M8.15579 15.452L9.954 16.4685M9.954 16.4685L9.90279 16.55C9.97196 16.5934 10.0294 16.6532 10.0702 16.724C10.1109 16.7948 10.1337 16.8745 10.1365 16.9562C10.1392 17.0378 10.122 17.1189 10.0862 17.1924C10.0504 17.2658 9.99716 17.3294 9.93112 17.3775L9.93101 17.3775M9.954 16.4685L9.93101 17.3775M9.93101 17.3775L8.33901 18.5405L8.11542 18.7039M9.93101 17.3775L8.11542 18.7039M8.11542 18.7039L8.39178 18.7211M8.11542 18.7039L8.39178 18.7211M8.39178 18.7211C9.3449 18.7805 10.2529 18.7385 11.0095 18.5884L11.0096 18.5884M8.39178 18.7211L11.0096 18.5884M11.0096 18.5884C13.3886 18.1134 15.3745 16.9794 16.7652 15.2211M11.0096 18.5884L16.7652 15.2211M12.877 10.4213C12.8757 10.4918 12.8594 10.5612 12.8293 10.625C12.7993 10.6887 12.7561 10.7454 12.7026 10.7912C12.649 10.8371 12.5864 10.8712 12.5188 10.8911C12.4513 10.9111 12.3803 10.9166 12.3105 10.9072L12.877 10.4213ZM16.7652 15.2211C18.1557 13.463 18.945 11.0883 18.945 8.14229M16.7652 15.2211L18.945 8.14229M18.945 8.14229C18.945 7.99668 18.8714 7.78474 18.744 7.55722M18.945 8.14229L18.744 7.55722M18.744 7.55722C18.6142 7.32559 18.4215 7.06508 18.1673 6.82049M18.744 7.55722L18.1673 6.82049M18.1673 6.82049C17.6587 6.33088 16.8999 5.90129 15.905 5.90129L18.1673 6.82049ZM20.4978 5.53842C20.8818 5.48388 21.3285 5.34345 21.916 5.01105C21.6101 6.49526 21.4321 7.16764 20.7642 8.08336L20.745 8.10969V8.14229C20.745 11.9415 19.578 14.7567 17.8258 16.7397C16.0726 18.7238 13.7277 19.8813 11.3624 20.3532C9.74529 20.6759 7.7544 20.5728 5.99643 20.2106C5.11813 20.0296 4.30077 19.7846 3.61983 19.4974C3.03727 19.2517 2.56009 18.9775 2.22956 18.6904C2.66065 18.6482 3.4114 18.5535 4.24366 18.3598C5.24355 18.1272 6.37173 17.7494 7.20306 17.141L7.31918 17.056L7.19904 16.9768C7.15724 16.9492 7.11178 16.9196 7.06301 16.8879C6.30477 16.3938 4.74648 15.3786 3.73155 13.5166C2.66714 11.5637 2.19257 8.66295 3.91362 4.42592C5.57889 6.34347 7.2726 7.66001 8.99504 8.3668L8.99505 8.36681C9.57662 8.60536 9.94255 8.72373 10.2318 8.79141C10.4509 8.84265 10.6261 8.86463 10.8117 8.88794C10.8703 8.89529 10.93 8.90278 10.9924 8.91135L11.2872 8.95189L11.1059 8.77077C11.131 7.8414 11.4254 6.93895 11.9539 6.17331C12.4904 5.39606 13.2442 4.79434 14.1211 4.4435C14.9979 4.09265 15.9588 4.00828 16.8833 4.20093C17.8079 4.39359 18.6551 4.85471 19.3189 5.52657L19.3485 5.55658L19.3907 5.55628C19.4934 5.55556 19.5972 5.55908 19.7036 5.56269C19.9483 5.57098 20.2068 5.57974 20.4978 5.53842Z"
-                            fill="white" stroke="black" stroke-width="0.2" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_248_1479">
-                            <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-
-
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M17 3H7C5.93913 3 4.92172 3.42143 4.17157 4.17157C3.42143 4.92172 3 5.93913 3 7V17C3 18.0609 3.42143 19.0783 4.17157 19.8284C4.92172 20.5786 5.93913 21 7 21H17C18.0609 21 19.0783 20.5786 19.8284 19.8284C20.5786 19.0783 21 18.0609 21 17V7C21 5.93913 20.5786 4.92172 19.8284 4.17157C19.0783 3.42143 18.0609 3 17 3Z"
-                        stroke="white" stroke-width="1.5" stroke-linejoin="round" />
-                    <path
-                        d="M12 16C13.0609 16 14.0783 15.5786 14.8284 14.8284C15.5786 14.0783 16 13.0609 16 12C16 10.9391 15.5786 9.92172 14.8284 9.17157C14.0783 8.42143 13.0609 8 12 8C10.9391 8 9.92172 8.42143 9.17157 9.17157C8.42143 9.92172 8 10.9391 8 12C8 13.0609 8.42143 14.0783 9.17157 14.8284C9.92172 15.5786 10.9391 16 12 16V16Z"
-                        stroke="white" stroke-width="1.5" stroke-linejoin="round" />
-                    <path
-                        d="M17.5 7.5C17.7652 7.5 18.0196 7.39464 18.2071 7.20711C18.3946 7.01957 18.5 6.76522 18.5 6.5C18.5 6.23478 18.3946 5.98043 18.2071 5.79289C18.0196 5.60536 17.7652 5.5 17.5 5.5C17.2348 5.5 16.9804 5.60536 16.7929 5.79289C16.6054 5.98043 16.5 6.23478 16.5 6.5C16.5 6.76522 16.6054 7.01957 16.7929 7.20711C16.9804 7.39464 17.2348 7.5 17.5 7.5Z"
-                        fill="white" />
-                </svg>
-
-
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M11.5 9.05C12.417 8.113 13.611 7.5 15 7.5C16.4587 7.5 17.8576 8.07946 18.8891 9.11091C19.9205 10.1424 20.5 11.5413 20.5 13V20.5H18.5V13C18.5 12.0717 18.1313 11.1815 17.4749 10.5251C16.8185 9.86875 15.9283 9.5 15 9.5C14.0717 9.5 13.1815 9.86875 12.5251 10.5251C11.8687 11.1815 11.5 12.0717 11.5 13V20.5H9.5V8H11.5V9.05ZM4.5 6C4.10218 6 3.72064 5.84196 3.43934 5.56066C3.15804 5.27936 3 4.89782 3 4.5C3 4.10218 3.15804 3.72064 3.43934 3.43934C3.72064 3.15804 4.10218 3 4.5 3C4.89782 3 5.27936 3.15804 5.56066 3.43934C5.84196 3.72064 6 4.10218 6 4.5C6 4.89782 5.84196 5.27936 5.56066 5.56066C5.27936 5.84196 4.89782 6 4.5 6ZM3.5 8H5.5V20.5H3.5V8Z"
-                        fill="white" />
-                </svg>
-
-            </div>
-        </div>
-    </div>
-</div>-->
-
     <div class="fluid-container px-5 div">
       <div class="fluid-container div-2">
-        <div class="container div-3">
+        <div class="div-3">
           <div class="div-4">Startup IDEA</div>
           <div class="div-5">Subscribe</div>
           <div class="div-6">Get 10% off your first order</div>
@@ -157,7 +13,7 @@
                 />
           </div>
         </div>
-        <div class="container div-9">
+        <div class="div-9">
           <div class="div-10">Support</div>
           <div class="div-11">
             111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
@@ -165,21 +21,24 @@
           <a href="mailto:exclusive@gmail.com" class="div-12 exclusivegmailcom">exclusive&#64;gmail.com</a>
           <a href="tel:88015-88888-9999" class="div-13 exclusivegmailcom">+88015-88888-9999</a>
         </div>
-        <div class="div-14 container">
-          <div class="div-15">Account</div>
-          <a routerLink="./account" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-16 exclusivegmailcom">My Account</a>
-          <a routerLink="./signup" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-17 exclusivegmailcom">Login / Register</a>
-          <a routerLink="./checkout" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-18 exclusivegmailcom">Cart</a>
-          <a routerLink="./wishlist" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-19 exclusivegmailcom">Wishlist</a>
-          <a routerLink="./shop" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-20 exclusivegmailcom">Shop</a>
+        <div class="row">
+          <div class="col div-14 container">
+            <div class="div-15">Account</div>
+            <a routerLink="./account" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-16 exclusivegmailcom">My Account</a>
+            <a routerLink="./signup" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-17 exclusivegmailcom">Login / Register</a>
+            <a routerLink="./checkout" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-18 exclusivegmailcom">Cart</a>
+            <a routerLink="./wishlist" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-19 exclusivegmailcom">Wishlist</a>
+            <a routerLink="./shop" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-20 exclusivegmailcom">Shop</a>
+          </div>
+          <div class="col container div-21">
+            <div class="div-22">Quick Link</div>
+            <div class="div-23">Privacy Policy</div>
+            <div class="div-24">Terms Of Use</div>
+            <div class="div-25">FAQ</div>
+            <a routerLink="./contact" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-26 exclusivegmailcom">Contact</a>
+          </div>
         </div>
-        <div class="container div-21">
-          <div class="div-22">Quick Link</div>
-          <div class="div-23">Privacy Policy</div>
-          <div class="div-24">Terms Of Use</div>
-          <div class="div-25">FAQ</div>
-          <a routerLink="./contact" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-26 exclusivegmailcom">Contact</a>
-        </div>
+        
         <div class="container div-27">
           <div class="div-28">Download App</div>
           <div class="div-29">Save $3 with App New User Only</div>
