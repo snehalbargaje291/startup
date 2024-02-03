@@ -1,314 +1,59 @@
-.dropdown {
-  background-color: #000;
-  position: relative;
-  display: inline-block;
+.srch {
+  background-color: #f5f5f5;
   border: none;
   outline: none;
-  cursor: pointer;
-  color: white;
-  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
   font-family: "Poppins-Regular", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  padding: 6px 10px;
 }
 
-/* Style for dropdown content */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: black;
+.img {
+  aspect-ratio: 1.16;
+  object-fit: auto;
+  object-position: center;
   width: 100%;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  padding: 16px 16px;
-  z-index: 1;
+  stroke-width: 1.5px;
+  stroke: #000;
+  max-width: 32px;
 }
 
-/* Show dropdown content on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+.img-2 {
+  aspect-ratio: 1.16;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  stroke-width: 1.5px;
+  stroke: #000;
+  max-width: 22px;
 }
 
-.box {
-    position: relative;
-    width: 100%;
-    height: 108px;
-  }
-  
-  .box .header {
-    width: 100%;
-    height: 108px;
-    top: 0;
-    left: 0;
-  }
-  
-  .box .top-header {
-    width: 100%;
-    height: 48px;
-    top: 0;
-    left: 0;
-    background-color: #000000;
-  }
-  
-  .box .frame {
-    align-items: flex-start;
-    gap: 231px;
-    top: 12px;
-    left: 445px;
-    display: inline-flex;
-    position: relative;
-  }
-  
-  .box .div {
-    align-items: center;
-    gap: 8px;
-    flex: 0 0 auto;
-    display: inline-flex;
-    position: relative;
-  }
-  
-  .box .text-wrapper {
-    position: relative;
-    width: 474px;
-    height: 18px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #f9f9f9;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 21px;
-    white-space: nowrap;
-  }
-  
-  .box .text-wrapper-2 {
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Poppins-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #f9f9f9;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 24px;
-    text-decoration: underline;
-    white-space: nowrap;
-  }
-  
-  .box .frame-2 {
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    flex: 0 0 auto;
-    display: inline-flex;
-    position: relative;
-  }
-  
-  .box .text-wrapper-3 {
-    position: relative;
-    width: fit-content;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #f9f9f9;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 21px;
-    white-space: nowrap;
-    background-color: black;
-  }
-  
-  .box .img {
-    position: relative;
-    width: 24px;
-    height: 24px;
-  }
-  
-  .box .overlap-group {
-    position: absolute;
-    width: 100%;
-    height: 60px;
-    top: 48px;
-    left: 0;
-    background-size: 100% 100%;
-  }
-  
-  .box .header-2 {
-    display: inline-flex;
-    height: 37px;
-    align-items: center;
-    gap: 148px;
-    position: relative;
-    top: 11px;
-    left: 137px;
-  }
-  
-  .box .frame-3 {
-    align-items: flex-start;
-    gap: 190px;
-    flex: 0 0 auto;
-    display: inline-flex;
-    position: relative;
-  }
-  
-  .box .logo {
-    position: relative;
-    width: 118px;
-    height: 24px;
-  }
-  
-  .box .exclusive {
-    position: absolute;
-    top: -1px;
-    left: 0;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0.72px;
-    line-height: 24px;
-    white-space: nowrap;
-  }
-  
-  .box .frame-4 {
-    align-items: flex-start;
-    gap: 48px;
-    flex: 0 0 auto;
-    display: inline-flex;
-    position: relative;
-  }
-  
-  a{
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-  }
+.nav-item:hover {
+  border-bottom: 2px solid gray;
+}
 
-  .box .header-3 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .box .text-wrapper-4 {
-    border-bottom: 2px solid #000;
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 24px;
-    white-space: nowrap;
-  }
-  
-  .box .under-line {
-    position: relative;
-    width: 48px;
-    height: 1px;
-    opacity: 0.5;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  .box .contact-wrapper {
-    position: relative;
-    width: 66px;
-    height: 24px;
-  }
-  
-  .box .text-wrapper-5 {
-    position: absolute;
-    top: -1px;
-    left: 0;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 24px;
-    white-space: nowrap;
-  }
-  
-  .box .div-wrapper {
-    position: relative;
-    width: 48px;
-    height: 24px;
-  }
-  
-  .box .header-4 {
-    position: relative;
-    width: 61px;
-    height: 24px;
-  }
-  
-  .box .frame-5 {
-    align-items: center;
-    gap: 24px;
-    flex: 0 0 auto;
-    margin-top: -0.72px;
-    margin-bottom: -0.72px;
-    display: inline-flex;
-    position: relative;
-  }
-  
-  .box .search-component-set {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 7px 12px 7px 20px;
-    position: relative;
-    flex: 0 0 auto;
-    background-color: #f5f5f5;
-    border-radius: 4px;
-  }
-  
-  .box .frame-6 {
-    align-items: center;
-    justify-content: center;
-    gap: 34px;
-    flex: 0 0 auto;
-    display: inline-flex;
-    position: relative;
-  }
-  
-  .box .p {
-    background-color: #f5f5f5;
-    border: 0;
-    outline: none;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.5;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 600;
-    color: #000000;
-    font-size: 12px;
-    letter-spacing: 0px;
-    
-  }
-  
-  .box .frame-7 {
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    flex: 0 0 auto;
-    display: inline-flex;
-    position: relative;
-  }
-  
-  .box .wishlist {
-    position: relative;
-    width: 32px;
-    height: 32px;
-  }
-  
-  .box .with-buy {
-    position: relative;
-    width: 32px;
-    height: 32px;
-    background-size: 100% 100%;
-  }
-  
+.lang select{
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.lang .dropdown {
+  padding: 0 4px;
+}
+
+.top {
+  padding: 10px 10px 0px 10px;
+  background-color: black;
+  color: white;
+}
+
+.top a {
+  color: white;
+  margin: 0 8px;
+}
