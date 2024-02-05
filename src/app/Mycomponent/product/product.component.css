@@ -1,0 +1,158 @@
+.wish-rating {
+  display: inline-block;
+  font-size: 0;
+  width: fit-content;
+}
+
+.wish-rating input[type="checkbox"] {
+  display: none;
+}
+
+.wish-rating label {
+  padding: 3px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url('https://www.svgrepo.com/show/447850/wishlist.svg'); 
+  background-size: cover;
+}
+
+.wish-rating input[type="checkbox"]:checked + label {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/8830/8830807.png'); 
+}
+
+.view-rating {
+  display: inline-block;
+  font-size: 0;
+  width: fit-content;
+}
+
+.view-rating input[type="checkbox"] {
+  display: none;
+}
+
+.view-rating label {
+  padding: 3px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url('https://www.svgrepo.com/show/105507/view-eye-interface-symbol.svg'); 
+  background-size: cover;
+}
+
+.view-rating input[type="checkbox"]:checked + label {
+  background-image: url('https://www.svgrepo.com/show/288932/eye-view.svg'); 
+}
+
+.star-rating {
+  display: inline-block;
+  font-size: 0;
+}
+
+.star-rating input[type="checkbox"] {
+  display: none;
+}
+
+.star-rating label {
+  margin: 1px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Empty_Star.svg/768px-Empty_Star.svg.png'); 
+  background-size: cover;
+}
+
+.star-rating input[type="checkbox"]:checked + label {
+  background-image: url('https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png');
+}
+
+    .badge{
+      margin: 0 10px 10px;
+      width: 60px;
+      max-width: fit-content;
+    }
+    .divp {
+      background-color: var(--BG, #ffffff);
+      display: flex;
+      max-width: 308px;
+      flex-direction: column;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 150%;
+      padding: 8px 10px;
+      border: 1px solid gray;
+    }
+    .divp-2 {
+      border-radius: 4px;
+      background-color: var(--Secondary, #f5f5f5);
+      display: flex;
+      padding-top: 6px;
+      flex-direction: column;
+      color: #fff;
+      white-space: nowrap;
+    }
+    .imgp {
+      aspect-ratio: 1.69;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+      align-self: center;
+      max-width: 250px;
+    }
+    .divp-3 {
+      visibility: hidden;
+      font-family: Poppins, sans-serif;
+      border-radius: 0px 0px 4px 4px;
+      color: white;
+      border: none;
+      outline: none;
+      background-color: var(--Button, #000);
+      justify-content: center;
+      align-items: center;
+      padding: 15px 60px;
+    }
+
+    .divp:hover .divp-3 {
+      visibility: visible;
+    }
+
+    .divp-4 {
+      color: #000;
+      font-family: Poppins, sans-serif;
+      margin-top: 16px;
+    }
+    .divp-5 {
+      display: flex;
+      margin-top: 8px;
+      justify-content: space-between;
+      gap: 12px;
+      white-space: nowrap;
+    }
+    .divp-6 {
+      color: var(--Secondary-2, #db4444);
+      font-family: Poppins, sans-serif;
+    }
+    .divp-7 {
+      color: var(--Button, #5a5a5a);
+      font-family: Poppins, sans-serif;
+      text-decoration: line-through;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .divp-8 {
+      display: flex;
+      margin-top: 8px;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--Text2, #000);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .divp-9 {
+      font-family: Poppins, sans-serif;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+
+    

@@ -12,10 +12,11 @@ import { RouterLink } from '@angular/router';
 import { RouterLinkActive } from '@angular/router';
 import { AccountComponent } from './Mycomponent/account/account.component';
 import { CheckoutComponent } from './Mycomponent/checkout/checkout.component';
+import { ProductComponent } from './Mycomponent/product/product.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule, RouterLink, RouterLinkActive, RouterOutlet, AccountComponent, StartupComponent, HomepageComponent, LoginComponent, SignupComponent, FooterComponent, SelleraddComponent, SelleregComponent, CheckoutComponent],
+  imports: [RouterModule, RouterLink, RouterLinkActive, RouterOutlet, ProductComponent, AccountComponent, StartupComponent, HomepageComponent, LoginComponent, SignupComponent, FooterComponent, SelleraddComponent, SelleregComponent, CheckoutComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

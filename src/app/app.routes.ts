@@ -8,6 +8,7 @@ import { AccountComponent } from './Mycomponent/account/account.component';
 import { AboutComponent } from './Mycomponent/about/about.component';
 import { ContactComponent } from './Mycomponent/contact/contact.component';
 import { CheckoutComponent } from './Mycomponent/checkout/checkout.component';
+import { ProductComponent } from './Mycomponent/product/product.component';
 
 export const routes: Routes = [
     {
@@ -46,4 +47,8 @@ export const routes: Routes = [
         path: "selleradd",
         component: SelleraddComponent
     },
+    {
+        path: "product",
+        component: ProductComponent
+    }
 ];
