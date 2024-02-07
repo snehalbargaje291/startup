@@ -9,6 +9,9 @@ import { AboutComponent } from './Mycomponent/about/about.component';
 import { ContactComponent } from './Mycomponent/contact/contact.component';
 import { CheckoutComponent } from './Mycomponent/checkout/checkout.component';
 import { ProductComponent } from './Mycomponent/product/product.component';
+import { CartComponent } from './Mycomponent/cart/cart.component';
+import { Services1Component } from './Mycomponent/services1/services1.component';
+import { ServicesComponent } from './Mycomponent/services/services.component';
 
 export const routes: Routes = [
     {
@@ -50,5 +53,17 @@ export const routes: Routes = [
     {
         path: "product",
         component: ProductComponent
-    }
+    },
+    {
+        path: "cart",
+        component: CartComponent
+    },
+    {
+        path: "services1",
+        component: Services1Component
+    },
+    {
+        path: "services",
+        component: ServicesComponent
+    },
 ];
