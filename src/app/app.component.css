@@ -3,7 +3,7 @@
 
 body{
     margin: 0;
-    line-height: normal;
+    width: 100vw;
     cursor: pointer; 
     font-family: "Roboto", sans-serif;
   }

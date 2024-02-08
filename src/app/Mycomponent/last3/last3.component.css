@@ -1,12 +1,11 @@
 .div-267 {
     justify-content: center;
     margin-top: 140px;
-    width: 943px;
-    max-width: 100%;
+    width: 100%;
   }
   @media (max-width: 991px) {
     .div-267 {
-      margin-top: 40px;
+      margin-top: 20px;
     }
   }
   .div-268 {
