@@ -1,7 +1,7 @@
 .div-248 {
     align-self: start;
     display: flex;
-    gap: 16px;
+    gap: 10px;
     font-size: 16px;
     color: var(--Secondary-2, #db4444);
     font-weight: 600;
@@ -10,7 +10,6 @@
   }
   @media (max-width: 991px) {
     .div-248 {
-      white-space: initial;
       margin: 40px 0 0 10px;
     }
   }
