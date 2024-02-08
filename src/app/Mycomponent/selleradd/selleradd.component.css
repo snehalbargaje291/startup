@@ -1,3 +1,8 @@
+@media (max-width: 991px) {
+  .title1{
+    font-size: x-large;
+  }
+}
 .upload-form {
     width: 100%;
     padding: 20px;
@@ -5,7 +10,17 @@
     background-color: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   }
-  
+
+    .upload{
+      padding: 20px 100px;
+    }
+
+    @media (max-width: 991px) {
+      .upload{
+        padding: 20px;
+      }
+    }
+
   .upload-form .title {
     size: 20px;
     margin-bottom: 20px;
@@ -29,6 +44,12 @@
 .uploaded-files {
     justify-content: left;
 }
+@media (max-width: 991px) {
+  .uploaded-files{
+    align-items: center;
+    justify-content: center;
+  }
+}
   
   .upload-area input[type="file"] {
     position: absolute;
@@ -39,7 +60,12 @@
     opacity: 0;
     cursor: pointer;
   }
-  
+  @media (max-width: 991px) {
+    .upload-area {
+      width: 80%;
+      height: 80%;
+    }
+  }
   .upload-area p {
     margin: 0;
   }
@@ -53,6 +79,12 @@
     cursor: pointer;
     margin-top: auto;
     display: block;
+  }
+  @media (max-width: 991px) {
+    .btn{
+      width: 50%;
+      padding: 5px 10px;
+    }
   }
 
   .image-container {

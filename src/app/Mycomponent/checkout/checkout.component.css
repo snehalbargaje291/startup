@@ -11,7 +11,7 @@ input{
   }
   @media (max-width: 991px) {
     .div {
-      padding: 0 20px;
+      padding: 20px;
     }
   }
   .div-2 {
@@ -24,7 +24,7 @@ input{
   @media (max-width: 991px) {
     .div-2 {
       max-width: 100%;
-      margin-top: 50px;
+      margin: 0px;
     }
   }
   .div-3 {
@@ -139,8 +139,7 @@ input{
   }
   @media (max-width: 991px) {
     .div-27 {
-      max-width: 100%;
-      flex-wrap: wrap;
+      width: 100%;
     }
   }
   .img {
@@ -163,6 +162,7 @@ input{
   @media (max-width: 991px) {
     .div-28 {
       max-width: 100%;
+      font-size: smaller;
     }
   }
   .column-2 {
@@ -176,6 +176,7 @@ input{
   @media (max-width: 991px) {
     .column-2 {
       width: 100%;
+      margin: 0;
     }
   }
   .div-29 {
@@ -185,8 +186,7 @@ input{
   }
   @media (max-width: 991px) {
     .div-29 {
-      max-width: 100%;
-      margin-top: 40px;
+      width: 100%;
     }
   }
   .div-30 {
@@ -452,7 +452,9 @@ input{
   @media (max-width: 991px) {
     .div-60 {
       white-space: initial;
-      padding: 0 20px;
+      padding: 10px;
+      width: 100%;
+      margin-top: 10px;
     }
   }
   .div-61 {
@@ -472,7 +474,9 @@ input{
   @media (max-width: 991px) {
     .div-61 {
       white-space: initial;
-      padding: 0 20px;
+      padding: 5px;
+      margin-top: 20px;
+      width: 100%;
     }
   }
 

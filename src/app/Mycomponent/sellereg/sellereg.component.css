@@ -1,3 +1,8 @@
+@media (max-width: 991px) {
+  .title{
+    font-size: x-large;
+  }
+}
 .form-container {
   font-family: Arial, sans-serif;
   width: 100%;
@@ -6,7 +11,23 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
 }
+@media (max-width: 991px) {
+  .form-container{
+    padding: 15px;
+  }
+}
 
+@media (max-width: 991px){
+  .outer-form{
+    padding: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .row{
+    flex-direction: column;
+  }
+}
 .form-group {
   margin-bottom: 15px;
 }
@@ -14,6 +35,12 @@
 label{
   font-weight: bold;
   margin-bottom: 5px;
+}
+@media (max-width: 991px) {
+  .form-group label,
+  .checkbox-group label{
+    font-size: smaller;
+  }
 }
 .main{
   font-weight: bold;
@@ -28,10 +55,16 @@ label{
   width: 100%;
   padding: 10px;
 }
+@media (max-width: 991px) {
+  .form-control{
+    padding: 2px 10px;
+    font-size: smaller;
+  }
+}
 
 .checkbox-container {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .checkbox-group {
@@ -46,6 +79,12 @@ input[type="checkbox"] {
   background-color: #fff;
   margin-right: 5px;
 }
+@media (max-width: 991px) {
+  input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+  }
+}
 .btn{
   background-color: #8910F1;
   color: white;
@@ -53,6 +92,13 @@ input[type="checkbox"] {
   padding: 20px;
   width: 30%;
   float: right;
+}
+
+@media (max-width: 991px) {
+  .btn{
+    padding: 5px 10px;
+    width: 50%;
+  }
 }
 
 .div {
