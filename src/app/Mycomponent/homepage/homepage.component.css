@@ -1185,6 +1185,7 @@ a{
   .div-120 {
     white-space: initial;
     padding: 0 20px;
+    width: 100px;
   }
 }
 .div-120:hover{
@@ -1192,14 +1193,26 @@ a{
 }
 .img-34 {
   aspect-ratio: 1.03;
+  padding-top: 10px;
   object-fit: auto;
   object-position: center;
   width: 58px;
   align-self: center;
 }
+@media (max-width: 991px) {
+  .img-34 {
+    width: 38px;
+  }
+}
 .div-121 {
   font-family: Poppins, sans-serif;
   margin-top: 22px;
+  align-self: center;
+}
+@media (max-width: 991px) {
+  .div-121 {
+    font-size: smaller;
+  }
 }
 
 .div-132 {
