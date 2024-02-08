@@ -74,7 +74,7 @@
     .divp {
       background-color: var(--BG, #ffffff);
       display: flex;
-      max-width: 308px;
+      max-width: 310px;
       flex-direction: column;
       font-size: 16px;
       font-weight: 500;
