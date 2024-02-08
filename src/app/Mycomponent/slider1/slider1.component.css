@@ -137,9 +137,15 @@ input[type= 'radio'] {
     display: flex;
     margin-top: 22px;
     width: 115px;
-    max-width: 100%;
     padding-right: 5px;
     gap: 12px;
+  }
+  @media (max-width: 991px) {
+    .div-12{
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
   }
   
   .div-13 {
@@ -179,6 +185,9 @@ input[type= 'radio'] {
   @media (max-width: 991px) {
     .column-2 {
       width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
     }
   }
   .img-4 {
