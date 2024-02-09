@@ -10,19 +10,19 @@
             </div>
           </div>
           <div class="column-2 fluid-container">
-            <div class="div-5">
+            <form [formGroup]="loginForm" class="div-5" (submit)="onSubmitLogin()">
               <div class="div-6">Log in to Startup Idea</div>
               <div class="div-7">Enter your details below</div>
-              <input type="text" class="div-8" placeholder="Email or Phone Number">
+              <input type="text" class="div-8" formControlName="emailorphone" placeholder="Email or Phone Number">
               <div class="div-9"></div>
-              <input type="password" class="div-8" placeholder="Password">
+              <input type="password" class="div-8" formControlName="password" placeholder="Password">
               <div class="div-9"></div>
               <div class="div-12">
                 <button type="submit" class="div-13">Log In</button>
                 <a href="#" class="div-14">Forget Password?</a>
               </div>
-            </div>
-          </div>
+            </form>
+          </div>          
         </div>
     </div>
   
