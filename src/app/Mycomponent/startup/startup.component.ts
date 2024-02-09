@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { RouterLink } from '@angular/router';
-import { RouterLinkActive } from '@angular/router';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule, RouterLink, RouterLinkActive, RouterOutlet, Router } from '@angular/router';
+
 @Component({
   selector: 'app-startup',
   standalone: true,
@@ -11,14 +9,21 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './startup.component.css'
 })
 export class StartupComponent {
-  displayTextSignup: string = 'Signup';
-  displayTextAbout: string = 'Services';
-  initialRouterLinkSignup: string = './signup';
-  initialRouterLinkAbout: string = './services';
+  constructor(private router: Router) {}
+
+  displayTextSignup = 'Signup';
+  displayTextAbout = 'Services';
+  initialRouterLinkSignup = './signup';
+  initialRouterLinkAbout = './services';
 
   changeToLogin() {
-    this.displayTextSignup = 'Login';
-    this.initialRouterLinkSignup = './login';
+    if (this.router.url === '/login') {
+      this.displayTextSignup = 'Signup';
+      this.initialRouterLinkSignup = './signup';
+    } else if (this.router.url === '/signup') {
+      this.displayTextSignup = 'Login';
+      this.initialRouterLinkSignup = './login';
+    }
   }
 
   changeToContact() {

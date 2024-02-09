@@ -22,16 +22,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="navbar-nav m-auto mb-2 mb-lg-0">
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" routerLink="./" routerLinkActive="active" (click)="resetTextAndRouterLink()" ariaCurrentWhenActive="page">Home</a>
+                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" routerLink="./" routerLinkActive="active" (click)="resetTextAndRouterLink()">Home</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" [routerLink]="initialRouterLinkAbout" routerLinkActive="active" (click)="resetTextAndRouterLink()" ariaCurrentWhenActive="page">{{displayTextAbout}}</a>
+                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" [routerLink]="initialRouterLinkAbout" routerLinkActive="active" (click)="resetTextAndRouterLink()">{{displayTextAbout}}</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" routerLink="./about" routerLinkActive="active" (click)="resetTextAndRouterLink(); changeToContact()" ariaCurrentWhenActive="page">About</a>
+                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" routerLink="./about" routerLinkActive="active" (click)="changeToContact()">About</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" [routerLink]="initialRouterLinkSignup" routerLinkActive="active" (click)="resetTextAndRouterLink(); changeToLogin()" ariaCurrentWhenActive="page">{{displayTextSignup}}</a>
+                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" [routerLink]="initialRouterLinkSignup" routerLinkActive="active" (click)="resetTextAndRouterLink(); changeToLogin()">{{displayTextSignup}}</a>
                 </div>
             </div>
             
