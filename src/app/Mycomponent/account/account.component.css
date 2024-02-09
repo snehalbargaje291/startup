@@ -93,6 +93,8 @@ a{
   @media (max-width: 991px) {
     .column {
       width: 100%;
+      justify-content: center;
+      align-items: center;
     }
   }
   .div-10 {
@@ -178,6 +180,9 @@ a{
   @media (max-width: 991px) {
     .column-2 {
       width: 100%;
+      margin: 0px;
+      justify-content: center;
+      align-items: center;
     }
   }
   .div-19 {
@@ -196,7 +201,7 @@ a{
     .div-19 {
       max-width: 100%;
       margin-top: 40px;
-      padding: 0 20px;
+      padding: 20px;
     }
   }
   .div-20 {

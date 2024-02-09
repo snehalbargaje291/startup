@@ -97,6 +97,7 @@
       width: 100%;
       align-self: center;
       max-width: 250px;
+      justify-self: center;
     }
     .divp-3 {
       visibility: hidden;
