@@ -1,7 +1,8 @@
 <div class="top">
     <div class="d-flex justify-content-evenly">
         <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
-            <a class="fw-bolder" href="#">ShopNow</a></p>
+            <a class="fw-bolder" href="#">ShopNow</a>
+        </p>
         <div class="lang">
             <select class="dropdown" id="language" name="language">
                 <option value="English">English</option>
@@ -14,27 +15,32 @@
 <nav class="navbar navbar-expand-lg container">
     <div class="container-fluid">
         <a class="navbar-brand fw-bolder" href="#">STARTUP IDEA</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="navbar-nav m-auto mb-2 mb-lg-0">
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" routerLink="./" routerLinkActive="active" (click)="resetTextAndRouterLink()">Home</a>
+                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" routerLink="./"
+                        routerLinkActive="active" (click)="resetTextAndRouterLink()">Home</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" [routerLink]="initialRouterLinkAbout" routerLinkActive="active" (click)="resetTextAndRouterLink()">{{displayTextAbout}}</a>
+                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page"
+                        [routerLink]="initialRouterLinkAbout" routerLinkActive="active"
+                        (click)="resetTextAndRouterLink()">{{displayTextAbout}}</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" routerLink="./about" routerLinkActive="active" (click)="changeToContact()">About</a>
+                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" routerLink="./about"
+                        routerLinkActive="active" (click)="changeToContact()">About</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" [routerLink]="initialRouterLinkSignup" routerLinkActive="active" (click)="resetTextAndRouterLink(); changeToLogin()">{{displayTextSignup}}</a>
+                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page"
+                    [routerLink]="initialRouterLinkSignup" routerLinkActive="active"
+                    (click)="handleSignupClick()">{{displayTextSignup}}</a>
                 </div>
             </div>
-            
+
             <form class="d-flex mx-4" role="search">
                 <input type="text" class="srch" placeholder="What are you looking for?">
                 <svg width="44" height="44" viewBox="0 0 24 24" fill="none" class="srch"
@@ -44,15 +50,17 @@
                         stroke="black" stroke-width="1.5" stroke-linecap="round" />
                 </svg>
             </form>
-            <a routerLink="./wishlist" routerLinkActive="active" (click)="resetTextAndRouterLink()" ariaCurrentWhenActive="page">
+            <a routerLink="./wishlist" routerLinkActive="active" (click)="resetTextAndRouterLink()"
+                ariaCurrentWhenActive="page">
                 <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3689f5ab735852b0fc3abbad57ad94a9afae35e2b4157709af9898340b6feb3?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
-                class="img-2 m-2" />
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3689f5ab735852b0fc3abbad57ad94a9afae35e2b4157709af9898340b6feb3?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
+                    class="img-2 m-2" />
             </a>
-            <a routerLink="./cart" routerLinkActive="active" (click)="resetTextAndRouterLink()" ariaCurrentWhenActive="page">
-            <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/17fea4b203dd5dde9915b88754c6e8bec67a179e6ed855d7b67b59300d4dfa89?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
-                class="img m-2" />
+            <a routerLink="./cart" routerLinkActive="active" (click)="resetTextAndRouterLink()"
+                ariaCurrentWhenActive="page">
+                <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/17fea4b203dd5dde9915b88754c6e8bec67a179e6ed855d7b67b59300d4dfa89?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
+                    class="img m-2" />
             </a>
         </div>
     </div>

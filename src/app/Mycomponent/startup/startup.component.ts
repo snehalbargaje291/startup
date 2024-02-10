@@ -17,20 +17,32 @@ export class StartupComponent {
   initialRouterLinkAbout = './services';
 
   changeToLogin() {
-    if (this.router.url === '/login') {
+    if (this.displayTextSignup === 'Signup') {
+      this.displayTextSignup = 'Signin';
+      this.initialRouterLinkSignup = './login';
+    }
+  }
+
+  changeToSignup() {
+    if (this.displayTextSignup === 'Signin') {
       this.displayTextSignup = 'Signup';
       this.initialRouterLinkSignup = './signup';
-    } else if (this.router.url === '/signup') {
-      this.displayTextSignup = 'Login';
-      this.initialRouterLinkSignup = './login';
     }
   }
 
   changeToContact() {
     this.displayTextAbout = 'Contact';
-    this.initialRouterLinkAbout = './contact'
+    this.initialRouterLinkAbout = './contact';
   }
 
+  handleSignupClick() {
+    if (this.displayTextSignup === 'Signin') {
+      this.changeToSignup();
+    } else {
+      this.changeToLogin();
+    }
+  }
+  
   resetTextAndRouterLink() {
     this.displayTextSignup = 'Signup';
     this.initialRouterLinkSignup = './signup';
