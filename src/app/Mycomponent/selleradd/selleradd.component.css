@@ -44,10 +44,10 @@
 .uploaded-files {
     justify-content: left;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .uploaded-files{
-    align-items: center;
     justify-content: center;
+    margin: 0;
   }
 }
   
@@ -217,6 +217,7 @@
   width: 24px;
   margin: auto 0;
 }
+
 .div-9 {
   align-items: start;
   align-self: center;

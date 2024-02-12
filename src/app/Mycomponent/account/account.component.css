@@ -10,7 +10,7 @@ a{
     align-items: center;
     padding-bottom: 50px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 1024px) {
     .div {
       padding: 0 20px;
     }

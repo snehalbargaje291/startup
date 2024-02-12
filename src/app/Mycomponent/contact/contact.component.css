@@ -6,7 +6,7 @@
     align-items: center;
     padding-bottom: 50px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 1024px) {
     .div {
       padding: 0 20px;
     }
@@ -35,9 +35,11 @@
     white-space: nowrap;
     line-height: 150%;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 1024px) {
     .div-3 {
       white-space: initial;
+      margin: 0;
+      padding: 0px 20px;
     }
   }
   .div-4 {

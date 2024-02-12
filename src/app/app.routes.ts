@@ -12,11 +12,21 @@ import { ProductComponent } from './Mycomponent/product/product.component';
 import { CartComponent } from './Mycomponent/cart/cart.component';
 import { Services1Component } from './Mycomponent/services1/services1.component';
 import { ServicesComponent } from './Mycomponent/services/services.component';
+import { ProductdetailsComponent } from './Mycomponent/productdetails/productdetails.component';
+import { WishlistComponent } from './Mycomponent/wishlist/wishlist.component';
 
 export const routes: Routes = [
     {
         path: "login",
         component: LoginComponent
+    },
+    {
+        path: "wishlist",
+        component: WishlistComponent
+    },
+    {
+        path: "productdetail",
+        component: ProductdetailsComponent
     },
     {
         path: "contact",
