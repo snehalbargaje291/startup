@@ -14,6 +14,7 @@ import { Services1Component } from './Mycomponent/services1/services1.component'
 import { ServicesComponent } from './Mycomponent/services/services.component';
 import { ProductdetailsComponent } from './Mycomponent/productdetails/productdetails.component';
 import { WishlistComponent } from './Mycomponent/wishlist/wishlist.component';
+import { ErrorComponent } from './Mycomponent/error/error.component';
 
 export const routes: Routes = [
     {
@@ -35,6 +36,10 @@ export const routes: Routes = [
     {
         path: "account",
         component: AccountComponent
+    },
+    {
+        path: "error",
+        component: ErrorComponent
     },
     {
         path: "about",

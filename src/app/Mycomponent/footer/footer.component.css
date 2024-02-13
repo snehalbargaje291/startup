@@ -193,6 +193,8 @@
   .div-24 {
     font-family: Poppins, sans-serif;
     margin-top: 16px;
+    text-decoration: none;
+    color: white;
   }
   @media (max-width: 1024px) {
     .div-24 {
