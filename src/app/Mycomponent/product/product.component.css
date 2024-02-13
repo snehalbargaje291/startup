@@ -4,44 +4,10 @@
   width: fit-content;
 }
 
-.wish-rating input[type="checkbox"] {
-  display: none;
-}
-
-.wish-rating label {
-  padding: 3px;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background-image: url('https://www.svgrepo.com/show/447850/wishlist.svg'); 
-  background-size: cover;
-}
-
-.wish-rating input[type="checkbox"]:checked + label {
-  background-image: url('https://cdn-icons-png.flaticon.com/512/8830/8830807.png'); 
-}
-
 .view-rating {
   display: inline-block;
   font-size: 0;
   width: fit-content;
-}
-
-.view-rating input[type="checkbox"] {
-  display: none;
-}
-
-.view-rating label {
-  padding: 3px;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background-image: url('https://www.svgrepo.com/show/105507/view-eye-interface-symbol.svg'); 
-  background-size: cover;
-}
-
-.view-rating input[type="checkbox"]:checked + label {
-  background-image: url('https://www.svgrepo.com/show/288932/eye-view.svg'); 
 }
 
 .star-rating {
@@ -49,21 +15,12 @@
   font-size: 0;
 }
 
-.star-rating input[type="checkbox"] {
-  display: none;
-}
 
-.star-rating label {
+.star-rating img{
   margin: 1px;
   display: inline-block;
   width: 25px;
   height: 25px;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Empty_Star.svg/768px-Empty_Star.svg.png'); 
-  background-size: cover;
-}
-
-.star-rating input[type="checkbox"]:checked + label {
-  background-image: url('https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png');
 }
 
     .badge{

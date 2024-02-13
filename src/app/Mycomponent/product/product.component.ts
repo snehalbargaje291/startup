@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { RouterLink } from '@angular/router';
 import { RouterLinkActive } from '@angular/router';
@@ -12,5 +12,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './product.component.css'
 })
 export class ProductComponent {
-
+  @Input() imageSrc: string = '../../../assets/service/s4.png';
 }
