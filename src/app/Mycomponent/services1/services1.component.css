@@ -2,7 +2,7 @@
     background-color: var(--BG, #fff);
     display: flex;
     flex-direction: column;
-    padding: 50px 80px;
+    padding: 0px 80px;
   }
   @media (max-width: 991px) {
     .divs {
