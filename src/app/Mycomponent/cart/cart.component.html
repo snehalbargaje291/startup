@@ -22,7 +22,7 @@
           </div>
           <p class="div-14 col-2" >$650</p>
           <div class="div-14 col-2">
-            <input type="number" name="Quantity" id="" class="quantityinput" [(ngModel)]="quantity">
+            <input type="number" name="Quantity" min="1" max="20" id="" class="quantityinput" [(ngModel)]="quantity">
           </div>
           <p class="div-15 col-3" >${{total}}</p>
         </div>
@@ -37,7 +37,7 @@
           </div>
           <p class="div-14 col-2" >$650</p>
           <div class="div-14 col-2">
-            <input type="number" name="Quantity" id="" class="quantityinput" [(ngModel)]="quantity1">
+            <input type="number" name="Quantity" id="" min="1" max="20" class="quantityinput" [(ngModel)]="quantity1">
           </div>
           <p class="div-15 col-3" >${{total1}}</p>
         </div>
