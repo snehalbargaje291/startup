@@ -18,6 +18,10 @@ import { ErrorComponent } from './Mycomponent/error/error.component';
 
 export const routes: Routes = [
     {
+        path:"",
+        component: HomepageComponent
+    },
+    {
         path: "login",
         component: LoginComponent
     },
@@ -38,20 +42,12 @@ export const routes: Routes = [
         component: AccountComponent
     },
     {
-        path: "error",
-        component: ErrorComponent
-    },
-    {
         path: "about",
         component: AboutComponent
     },
     {
         path: "signup",
         component: SignupComponent
-    },
-    {
-        path:"",
-        component: HomepageComponent
     },
     {
         path:"sellereg",
@@ -80,5 +76,9 @@ export const routes: Routes = [
     {
         path: "services",
         component: ServicesComponent
+    },
+    {
+        path: "**",
+        component: ErrorComponent
     },
 ];

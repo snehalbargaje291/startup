@@ -39,13 +39,13 @@
       white-space: nowrap;
       outline: none;
       background-color: white;
-      padding: 16px 48px;
+      padding: 20px 50px;
       font: 500 16px/150% Poppins, sans-serif;
     }
     @media (max-width: 991px) {
       .div-4 {
         white-space: initial;
-        padding: 0 20px;
+        padding: 10px;
       }
     }
     .div-5 {
@@ -62,24 +62,26 @@
     .div-6 {
       gap: 20px;
       display: flex;
+      justify-content: center;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 1024px) {
       .div-6 {
+        gap: 20px;
         flex-direction: column;
-        align-items: stretch;
-        gap: 0px;
+        align-items: center;
       }
     }
     .column {
       display: flex;
       flex-direction: column;
       line-height: normal;
-      width: 25%;
+      width: 220px;
       margin-left: 0px;
     }
-    @media (max-width: 991px) {
-      .column {
-        width: 100%;
+    @media (max-width: 1024px) {
+      .column{
+        width: 300px;
+
       }
     }
     .div-7 {
@@ -203,9 +205,10 @@
       text-decoration: none;
       color: white;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 1024px) {
       .div-14 {
         white-space: initial;
+        padding: 10px;
       }
     }
     .div-15 {
@@ -291,12 +294,13 @@
     .div-49 {
       gap: 20px;
       display: flex;
+      justify-content: center;
     }
     @media (max-width: 991px) {
       .div-49 {
         flex-direction: column;
-        align-items: stretch;
-        gap: 0px;
+        align-items: center;
+        gap: 10px;
       }
     }
     .div-50 {
