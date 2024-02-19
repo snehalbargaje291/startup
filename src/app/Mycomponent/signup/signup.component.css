@@ -118,17 +118,6 @@
     height: 1px;
   }
 
-  
-  .div-14 {
-    color: var(--Secondary-2, #db4444);
-    font-family: Poppins, sans-serif;
-    font-weight: 400;
-    flex-grow: 1;
-    flex-basis: auto;
-    margin: auto 0;
-    text-decoration: none;
-  }
-
   .div-14 {
     font-family: Poppins, sans-serif;
     justify-content: center;
@@ -146,7 +135,7 @@
   @media (max-width: 991px) {
     .div-14 {
       white-space: initial;
-      padding: 0 20px;
+      padding: 10px 20px;
     }
   }
   .div-15 {
@@ -194,6 +183,7 @@
   @media (max-width: 991px) {
     .div-17 {
       white-space: initial;
+      padding: 10px 20px;
     }
   }
   .div-18 {
