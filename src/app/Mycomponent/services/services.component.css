@@ -301,7 +301,7 @@
     display: flex;
     margin-top: 60px;
     width: 100%;
-    max-width: 1170px;
+    align-items: center;
     justify-content: space-between;
     gap: 20px;
     font-size: 16px;
@@ -329,12 +329,11 @@
     flex-direction: column;
     white-space: nowrap;
     text-align: center;
-    padding: 47px 48px 26px;
+    padding: 20px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 1024px) {
     .div-25 {
       white-space: initial;
-      padding: 0 20px;
     }
   }
   .div-25:hover{
