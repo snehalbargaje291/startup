@@ -319,7 +319,7 @@
 }
 @media (max-width: 500px) {
   .div-28 {
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 0px;
   }
 }
