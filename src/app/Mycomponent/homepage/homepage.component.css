@@ -10,7 +10,7 @@ a{
   align-items: center;
   padding: 0 80px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div {
     padding: 0 20px;
   }
@@ -25,7 +25,7 @@ a{
   gap: 20px;
   margin: 60px 0 0 15px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-17 {
     flex-wrap: wrap;
     padding-right: 20px;
@@ -33,7 +33,7 @@ a{
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-18 {
     max-width: 100%;
   }
@@ -42,7 +42,7 @@ a{
   gap: 20px;
   display: flex;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-19 {
     flex-direction: column;
     align-items: stretch;
@@ -56,7 +56,7 @@ a{
   width: 44%;
   margin-left: 0px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-3 {
     width: 100%;
   }
@@ -68,7 +68,7 @@ a{
   font-weight: 600;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-20 {
     margin-top: 30px;
     white-space: initial;
@@ -81,7 +81,7 @@ a{
   font-size: 16px;
   color: var(--Secondary-2, #db4444);
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-21 {
     white-space: initial;
   }
@@ -104,7 +104,7 @@ a{
   margin-top: 24px;
   font: 36px/133% Inter, sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-24 {
     white-space: initial;
   }
@@ -116,7 +116,7 @@ a{
   width: 56%;
   margin-left: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-4 {
     width: 100%;
   }
@@ -129,7 +129,7 @@ a{
   color: var(--Text2, #000);
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-25 {
     margin-top: 40px;
     white-space: initial;
@@ -141,7 +141,7 @@ a{
   flex-basis: 0%;
   flex-direction: column;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-26 {
     white-space: initial;
   }
@@ -167,7 +167,7 @@ a{
   flex-basis: 0%;
   flex-direction: column;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-30 {
     white-space: initial;
   }
@@ -193,7 +193,7 @@ a{
   flex-basis: 0%;
   flex-direction: column;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-34 {
     white-space: initial;
   }
@@ -219,7 +219,7 @@ a{
   flex-basis: 0%;
   flex-direction: column;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-38 {
     white-space: initial;
   }
@@ -239,7 +239,7 @@ a{
   margin-top: 57px;
   gap: 8px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-41 {
     margin-top: 40px;
     align-self: center;
@@ -266,7 +266,7 @@ a{
   gap: 20px;
   margin: 40px 0 0 15px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-42 {
     gap: 10px;
   }
@@ -296,7 +296,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-45 {
     white-space: initial;
   }
@@ -308,7 +308,7 @@ a{
   background-color: var(--Secondary-2, #db4444);
   padding: 4px 12px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-46 {
     white-space: initial;
   }
@@ -358,7 +358,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-49 {
     white-space: initial;
   }
@@ -385,7 +385,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-52 {
     white-space: initial;
   }
@@ -420,7 +420,7 @@ a{
   color: #fff;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-55 {
     white-space: initial;
   }
@@ -442,7 +442,7 @@ a{
   align-items: center;
   padding: 9px 60px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-56 {
     white-space: initial;
     margin-top: 40px;
@@ -461,7 +461,7 @@ a{
   gap: 12px;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-58 {
     white-space: initial;
   }
@@ -487,7 +487,7 @@ a{
   font-weight: 600;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-61 {
     white-space: initial;
   }
@@ -530,7 +530,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-65 {
     white-space: initial;
   }
@@ -542,7 +542,7 @@ a{
   background-color: var(--Secondary-2, #db4444);
   padding: 4px 12px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-66 {
     white-space: initial;
   }
@@ -591,7 +591,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-69 {
     white-space: initial;
   }
@@ -618,7 +618,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-72 {
     white-space: initial;
   }
@@ -661,7 +661,7 @@ a{
   font: 400 12px/150% Poppins, -apple-system, Roboto, Helvetica,
     sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-76 {
     white-space: initial;
   }
@@ -710,7 +710,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-79 {
     white-space: initial;
   }
@@ -737,7 +737,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-82 {
     white-space: initial;
   }
@@ -780,7 +780,7 @@ a{
   font: 400 12px/150% Poppins, -apple-system, Roboto, Helvetica,
     sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-86 {
     white-space: initial;
   }
@@ -836,7 +836,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-91 {
     white-space: initial;
   }
@@ -863,7 +863,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-94 {
     white-space: initial;
   }
@@ -907,7 +907,7 @@ a{
   font: 400 12px/150% Poppins, -apple-system, Roboto, Helvetica,
     sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-98 {
     white-space: initial;
   }
@@ -963,7 +963,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-103 {
     white-space: initial;
   }
@@ -1051,7 +1051,7 @@ a{
   font: 500 16px/150% Poppins, -apple-system, Roboto, Helvetica,
     sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-110 {
     white-space: initial;
     margin-top: 40px;
@@ -1065,7 +1065,7 @@ a{
   max-width: 100%;
   height: 1px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-111 {
     margin-top: 40px;
   }
@@ -1078,7 +1078,7 @@ a{
   justify-content: space-between;
   gap: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-112 {
     max-width: 100%;
     flex-wrap: wrap;
@@ -1091,7 +1091,7 @@ a{
   font-weight: 600;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-113 {
     white-space: initial;
   }
@@ -1103,7 +1103,7 @@ a{
   font-size: 16px;
   color: var(--Secondary-2, #db4444);
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-114 {
     white-space: initial;
   }
@@ -1124,7 +1124,7 @@ a{
   margin-top: 20px;
   font: 36px/133% Inter, sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-117 {
     white-space: initial;
   }
@@ -1135,7 +1135,7 @@ a{
   margin-top: 62px;
   gap: 8px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-118 {
     margin-top: 40px;
   }
@@ -1181,13 +1181,12 @@ a{
   flex-grow: 1;
   flex-basis: 0%;
   flex-direction: column;
+  width: 100px;
   padding: 20px 45px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-120 {
     white-space: initial;
-    padding: 0 20px;
-    width: 100px;
   }
 }
 .div-120:hover{
@@ -1201,7 +1200,7 @@ a{
   width: 58px;
   align-self: center;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .img-34 {
     width: 38px;
   }
@@ -1211,7 +1210,7 @@ a{
   margin-top: 22px;
   align-self: center;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-121 {
     font-size: smaller;
   }
@@ -1224,7 +1223,7 @@ a{
   max-width: 100%;
   height: 1px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-132 {
     margin-top: 40px;
   }
@@ -1237,7 +1236,7 @@ a{
   justify-content: space-between;
   gap: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-133 {
     max-width: 100%;
     flex-wrap: wrap;
@@ -1273,7 +1272,7 @@ a{
   white-space: nowrap;
   font: 36px/133% Inter, sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-138 {
     white-space: initial;
   }
@@ -1290,7 +1289,7 @@ a{
   font: 500 16px/150% Poppins, -apple-system, Roboto, Helvetica,
     sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-139 {
     white-space: initial;
     margin-top: 40px;
@@ -1302,7 +1301,7 @@ a{
   width: 100%;
   max-width: 1170px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-140 {
     max-width: 100%;
     margin-top: 40px;
@@ -1312,10 +1311,11 @@ a{
   gap: 20px;
   display: flex;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-141 {
-    flex-direction: column;
-    align-items: center;
+    overflow-x: auto;
+    align-self: stretch;
+    flex-direction: row ;
     justify-content: center;
     gap: 0px;
   }
@@ -1327,7 +1327,7 @@ a{
   width: 25%;
   margin-left: 0px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-5 {
     width: 100%;
   }
@@ -1340,7 +1340,7 @@ a{
   font-weight: 500;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-142 {
     margin-top: 30px;
   }
@@ -1363,7 +1363,7 @@ a{
   gap: 12px;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-144 {
     white-space: initial;
   }
@@ -1389,7 +1389,7 @@ a{
   font-weight: 600;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-147 {
     white-space: initial;
   }
@@ -1413,7 +1413,7 @@ a{
   width: 25%;
   margin-left: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-6 {
     width: 100%;
   }
@@ -1426,7 +1426,7 @@ a{
   font-weight: 500;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-149 {
     margin-top: 30px;
   }
@@ -1449,7 +1449,7 @@ a{
   gap: 12px;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-151 {
     white-space: initial;
   }
@@ -1475,7 +1475,7 @@ a{
   font-weight: 600;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-154 {
     white-space: initial;
   }
@@ -1499,7 +1499,7 @@ a{
   width: 25%;
   margin-left: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-7 {
     width: 100%;
   }
@@ -1512,7 +1512,7 @@ a{
   font-weight: 500;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-156 {
     margin-top: 30px;
   }
@@ -1535,7 +1535,7 @@ a{
   gap: 12px;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-158 {
     white-space: initial;
   }
@@ -1561,7 +1561,7 @@ a{
   font-weight: 600;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-161 {
     white-space: initial;
   }
@@ -1585,7 +1585,7 @@ a{
   width: 25%;
   margin-left: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-8 {
     width: 100%;
   }
@@ -1598,7 +1598,7 @@ a{
   font-weight: 500;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-163 {
     margin-top: 30px;
   }
@@ -1629,7 +1629,7 @@ a{
   font-weight: 600;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-166 {
     white-space: initial;
   }
@@ -1654,7 +1654,7 @@ a{
   margin-top: 140px;
   max-width: 1170px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .img-48 {
     max-width: 100%;
     margin-top: 40px;
@@ -1668,7 +1668,7 @@ a{
   justify-content: space-between;
   gap: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-168 {
     max-width: 100%;
     flex-wrap: wrap;
@@ -1706,7 +1706,7 @@ a{
   white-space: nowrap;
   font: 36px/133% Inter, sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-173 {
     white-space: initial;
   }
@@ -1717,7 +1717,7 @@ a{
   margin-top: 62px;
   gap: 8px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-174 {
     margin-top: 40px;
   }
@@ -1739,7 +1739,7 @@ a{
   width: 100%;
   max-width: 1170px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-175 {
     max-width: 100%;
     margin-top: 40px;
@@ -1749,7 +1749,7 @@ a{
   gap: 20px;
   display: flex;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-176 {
     flex-direction: column;
     align-items: center;
@@ -1763,7 +1763,7 @@ a{
   width: 25%;
   margin-left: 0px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-9 {
     width: 100%;
   }
@@ -1774,7 +1774,7 @@ a{
   flex-direction: column;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-177 {
     margin-top: 30px;
   }
@@ -1797,7 +1797,7 @@ a{
   gap: 8px;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-179 {
     white-space: initial;
   }
@@ -1815,7 +1815,7 @@ a{
   font-weight: 600;
   margin: auto 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-181 {
     white-space: initial;
   }
@@ -1837,7 +1837,7 @@ a{
   width: 25%;
   margin-left: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-10 {
     width: 100%;
   }
@@ -1847,7 +1847,7 @@ a{
   flex-grow: 1;
   flex-direction: column;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-183 {
     margin-top: 30px;
   }
@@ -1867,7 +1867,7 @@ a{
   align-items: start;
   gap: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-185 {
     margin-right: 10px;
   }
@@ -1911,7 +1911,7 @@ a{
   font: 500 16px/150% Poppins, -apple-system, Roboto, Helvetica,
     sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-187 {
     white-space: initial;
     padding: 0 20px;
@@ -1931,7 +1931,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-189 {
     white-space: initial;
   }
@@ -1949,7 +1949,7 @@ a{
   font-weight: 600;
   margin: auto 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-191 {
     white-space: initial;
   }
@@ -1971,7 +1971,7 @@ a{
   width: 25%;
   margin-left: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-11 {
     width: 100%;
   }
@@ -1982,7 +1982,7 @@ a{
   flex-direction: column;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-193 {
     margin-top: 30px;
   }
@@ -2005,7 +2005,7 @@ a{
   gap: 8px;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-195 {
     white-space: initial;
   }
@@ -2023,7 +2023,7 @@ a{
   font-weight: 600;
   margin: auto 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-197 {
     white-space: initial;
   }
@@ -2045,7 +2045,7 @@ a{
   width: 25%;
   margin-left: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-12 {
     width: 100%;
   }
@@ -2056,7 +2056,7 @@ a{
   flex-direction: column;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-199 {
     margin-top: 30px;
   }
@@ -2079,7 +2079,7 @@ a{
   gap: 8px;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-201 {
     white-space: initial;
   }
@@ -2097,7 +2097,7 @@ a{
   font-weight: 600;
   margin: auto 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-203 {
     white-space: initial;
   }
@@ -2117,7 +2117,7 @@ a{
   width: 100%;
   max-width: 1170px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-205 {
     max-width: 100%;
     margin-top: 40px;
@@ -2127,7 +2127,7 @@ a{
   gap: 20px;
   display: flex;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-206 {
     flex-direction: column;
     align-items: center;
@@ -2141,7 +2141,7 @@ a{
   width: 25%;
   margin-left: 0px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-13 {
     width: 100%;
   }
@@ -2151,7 +2151,7 @@ a{
   flex-grow: 1;
   flex-direction: column;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-207 {
     margin-top: 30px;
   }
@@ -2177,7 +2177,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-209 {
     white-space: initial;
   }
@@ -2189,7 +2189,7 @@ a{
   background-color: var(--Button1, #0f6);
   padding: 4px 12px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-210 {
     white-space: initial;
   }
@@ -2236,7 +2236,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-213 {
     white-space: initial;
   }
@@ -2254,7 +2254,7 @@ a{
   font-weight: 600;
   margin: auto 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-215 {
     white-space: initial;
   }
@@ -2276,7 +2276,7 @@ a{
   justify-content: space-between;
   gap: 8px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-217 {
     padding-right: 20px;
   }
@@ -2299,7 +2299,7 @@ a{
   width: 25%;
   margin-left: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-14 {
     width: 100%;
   }
@@ -2309,7 +2309,7 @@ a{
   flex-grow: 1;
   flex-direction: column;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-219 {
     margin-top: 30px;
   }
@@ -2334,7 +2334,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-221 {
     white-space: initial;
   }
@@ -2352,7 +2352,7 @@ a{
   font-weight: 600;
   margin: auto 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-223 {
     white-space: initial;
   }
@@ -2374,7 +2374,7 @@ a{
   justify-content: space-between;
   gap: 8px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-225 {
     padding-right: 20px;
   }
@@ -2397,7 +2397,7 @@ a{
   width: 25%;
   margin-left: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-15 {
     width: 100%;
   }
@@ -2407,7 +2407,7 @@ a{
   flex-grow: 1;
   flex-direction: column;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-227 {
     margin-top: 30px;
   }
@@ -2431,7 +2431,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-229 {
     white-space: initial;
   }
@@ -2443,7 +2443,7 @@ a{
   background-color: var(--Button1, #0f6);
   padding: 4px 12px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-230 {
     white-space: initial;
   }
@@ -2491,7 +2491,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-233 {
     white-space: initial;
   }
@@ -2509,7 +2509,7 @@ a{
   font-weight: 600;
   margin: auto 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-235 {
     white-space: initial;
   }
@@ -2531,7 +2531,7 @@ a{
   justify-content: space-between;
   gap: 8px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-237 {
     padding-right: 20px;
   }
@@ -2554,7 +2554,7 @@ a{
   width: 25%;
   margin-left: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-16 {
     width: 100%;
   }
@@ -2564,7 +2564,7 @@ a{
   flex-grow: 1;
   flex-direction: column;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-239 {
     margin-top: 30px;
   }
@@ -2589,7 +2589,7 @@ a{
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-241 {
     white-space: initial;
   }
@@ -2607,7 +2607,7 @@ a{
   font-weight: 600;
   margin: auto 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-243 {
     white-space: initial;
   }
@@ -2629,7 +2629,7 @@ a{
   justify-content: space-between;
   gap: 8px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-245 {
     padding-right: 20px;
   }
@@ -2656,7 +2656,7 @@ a{
   font: 500 16px/150% Poppins, -apple-system, Roboto, Helvetica,
     sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-247 {
     white-space: initial;
     margin-top: 40px;
@@ -2670,7 +2670,7 @@ a{
   width: 943px;
   max-width: 100%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-267 {
     margin-top: 40px;
   }
@@ -2679,7 +2679,7 @@ a{
   display: flex;
   justify-content: center;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-268 {
     flex-direction: column;
     align-items: stretch;
@@ -2693,7 +2693,7 @@ a{
   width: 100%;
   margin: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .column-19 {
     width: 100%;
   }
@@ -2706,7 +2706,7 @@ a{
   color: #000;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-269 {
     margin-top: 40px;
     white-space: initial;
@@ -2727,7 +2727,7 @@ a{
   font: 600 20px/140% Poppins, -apple-system, Roboto, Helvetica,
     sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-270 {
     white-space: initial;
     font-size: small;
@@ -2739,7 +2739,7 @@ a{
   width: 100%;
   font: 400 14px/150% Poppins, sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .div-271 {
     white-space: initial;
     font-size: small;
@@ -2753,7 +2753,7 @@ a{
   align-self: end;
   margin: 62px 52px 0 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .img-84 {
     margin: 40px 10px 0 0;
   }
