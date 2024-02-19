@@ -260,12 +260,15 @@ a{
 }
 .div-42 {
   overflow-x: auto;
-  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
   align-self: stretch;
   display: flex;
   justify-content: space-between;
   gap: 20px;
   margin: 40px 0 0 15px;
+}
+.div-42::-webkit-scrollbar {
+  display: none; 
 }
 @media (max-width: 1024px) {
   .div-42 {
