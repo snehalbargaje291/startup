@@ -1313,6 +1313,7 @@ a{
 }
 @media (max-width: 1024px) {
   .div-141 {
+    align-items: center;
     flex-direction: column ;
     justify-content: center;
     gap: 0px;
