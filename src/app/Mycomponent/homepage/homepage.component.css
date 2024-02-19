@@ -260,6 +260,7 @@ a{
 }
 .div-42 {
   overflow-x: auto;
+  overflow: hidden;
   align-self: stretch;
   display: flex;
   justify-content: space-between;
