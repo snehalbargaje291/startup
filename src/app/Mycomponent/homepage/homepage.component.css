@@ -1313,9 +1313,7 @@ a{
 }
 @media (max-width: 1024px) {
   .div-141 {
-    overflow-x: auto;
-    align-self: stretch;
-    flex-direction: row ;
+    flex-direction: column ;
     justify-content: center;
     gap: 0px;
   }
