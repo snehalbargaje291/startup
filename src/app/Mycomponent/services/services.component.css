@@ -320,6 +320,7 @@
     text-decoration: none;
     color: #000;
     justify-content: center;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     display: flex;
@@ -441,12 +442,15 @@
   .div-45 {
     gap: 20px;
     display: flex;
+    justify-content: center;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 1024px) {
     .div-45 {
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       gap: 0px;
+      width: 100%;
     }
   }
   .column-3 {
@@ -900,11 +904,14 @@
   .div-81 {
     gap: 20px;
     display: flex;
+    justify-content: center;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 1024px) {
     .div-81 {
+      justify-content: center;
       flex-direction: column;
       align-items: center;
+      width: 100%;
       gap: 0px;
     }
   }
