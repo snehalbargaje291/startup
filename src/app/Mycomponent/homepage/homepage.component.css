@@ -1314,11 +1314,12 @@ a{
 .div-141 {
   gap: 20px;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 @media (max-width: 1024px) {
   .div-141 {
     align-items: center;
-    flex-direction: column ;
     justify-content: center;
     gap: 0px;
   }
@@ -1751,10 +1752,10 @@ a{
 .div-176 {
   gap: 20px;
   display: flex;
+  flex-wrap: wrap;
 }
 @media (max-width: 1024px) {
   .div-176 {
-    flex-direction: column;
     align-items: center;
     gap: 0px;
   }
@@ -2114,28 +2115,6 @@ a{
 }
 .div-204 {
   font-family: Poppins, sans-serif;
-}
-.div-205 {
-  margin-top: 60px;
-  width: 100%;
-  max-width: 1170px;
-}
-@media (max-width: 1024px) {
-  .div-205 {
-    max-width: 100%;
-    margin-top: 40px;
-  }
-}
-.div-206 {
-  gap: 20px;
-  display: flex;
-}
-@media (max-width: 1024px) {
-  .div-206 {
-    flex-direction: column;
-    align-items: center;
-    gap: 0px;
-  }
 }
 .column-13 {
   display: flex;
