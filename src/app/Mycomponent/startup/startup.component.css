@@ -79,7 +79,7 @@
   border-radius: 6px;
   display: none;
   position: absolute;
-  background: linear-gradient(to top, #000000, #808080);;
+  background: linear-gradient(to top, #000000, #808080);
   min-width: 170px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;

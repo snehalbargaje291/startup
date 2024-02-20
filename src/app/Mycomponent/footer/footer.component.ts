@@ -25,5 +25,4 @@ export class FooterComponent {
   redirectToLinkedin() {
     window.location.href = 'https://www.linkedin.com';
   }
-
 }
