@@ -42,7 +42,9 @@
   .div-252 {
     margin-top: 60px;
     width: 100%;
-    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   @media (max-width: 500px) {
     .div-252 {
@@ -51,8 +53,9 @@
     }
   }
   .div-253 {
-    gap: 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   @media (max-width: 500px) {
     .div-253 {
