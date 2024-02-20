@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .title1{
     font-size: x-large;
   }
@@ -15,7 +15,7 @@
       padding: 20px 100px;
     }
 
-    @media (max-width: 991px) {
+    @media (max-width: 500px) {
       .upload{
         padding: 20px;
       }
@@ -60,7 +60,7 @@
     opacity: 0;
     cursor: pointer;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 500px) {
     .upload-area {
       width: 80%;
       height: 80%;
@@ -80,7 +80,7 @@
     margin-top: auto;
     display: block;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 500px) {
     .btn{
       width: 50%;
       padding: 5px 10px;
@@ -116,7 +116,7 @@
   background-color: var(--Text2, #000);
   padding: 16px 74px;
 }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .div {
     padding: 0 20px;
   }
@@ -125,7 +125,7 @@
   gap: 20px;
   display: flex;
 }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .div-2 {
     flex-direction: column;
     align-items: stretch;
@@ -139,7 +139,7 @@
   width: 50%;
   margin-left: 0px;
 }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .column {
     width: 100%;
   }
@@ -150,7 +150,7 @@
   margin-top: 85px;
   flex-direction: column;
 }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .div-3 {
     max-width: 100%;
     margin-top: 40px;
@@ -161,7 +161,7 @@
   letter-spacing: 1.92px;
   font: 600 48px/60px Inter, sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .div-4 {
     max-width: 100%;
     font-size: 40px;
@@ -180,7 +180,7 @@
   text-align: center;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .div-5 {
     white-space: initial;
   }
@@ -191,7 +191,7 @@
   flex-basis: 0%;
   flex-direction: column;
 }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .div-6 {
     white-space: initial;
   }
@@ -201,7 +201,7 @@
   text-decoration: none;
   color: white;
 }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .div-7 {
     white-space: initial;
   }
@@ -240,7 +240,7 @@
   width: 50%;
   margin-left: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .column-2 {
     width: 100%;
   }
@@ -252,7 +252,7 @@
   width: 100%;
   flex-grow: 1;
 }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .img-3 {
     max-width: 100%;
     margin-top: 16px;
