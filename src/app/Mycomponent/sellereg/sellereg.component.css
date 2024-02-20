@@ -65,6 +65,7 @@ label{
 .checkbox-container {
   display: flex;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .checkbox-group {
