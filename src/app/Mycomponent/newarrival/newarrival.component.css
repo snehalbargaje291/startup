@@ -40,11 +40,10 @@
   }
 }
 .div-252 {
-  margin-top: 60px;
+  margin-top: 40px;
   width: 100%;
-  max-width: 1170px;
 }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .div-252 {
     max-width: 100%;
     margin-top: 40px;
