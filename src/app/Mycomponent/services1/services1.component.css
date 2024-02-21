@@ -4,7 +4,7 @@
     flex-direction: column;
     padding: 0px 80px;
   }
-  @media (max-width: 500px) {
+  @media (max-width: 991px) {
     .divs {
       padding: 0 20px;
     }
