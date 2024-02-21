@@ -1,3 +1,9 @@
+input.ng-touched.ng-invalid,
+select.ng-touched.ng-invalid,
+textarea.ng-touched.ng-invalid {
+  border: 1px solid #db4444;
+}
+
 @media (max-width: 500px) {
   .title{
     font-size: x-large;

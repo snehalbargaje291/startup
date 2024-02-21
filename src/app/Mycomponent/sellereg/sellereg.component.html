@@ -36,104 +36,113 @@
 </div>
   <h1 class="title d-flex justify-content-center">Seller's Resgistration Form</h1>
   <div class="outer-form container d-flex justify-content-center">
-    <form action="#" method="post" class="form-container ">
+    <form class="form-container " [formGroup]="becomeSeller" (ngSubmit)="SellerSubmit()">
       <label for="personal" class="main">Personal Information</label>
       <div class="row">
         <div class="form-group col">
-          <label for="firstName">First Name</label>
-          <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter your first name">
+          <label for="firstname">First Name</label>
+          <input type="text" class="form-control" id="firstname" formControlName="firstname" placeholder="Enter your first name">
         </div>
         <div class="form-group col">
-          <label for="lastName">Last Name</label>
-          <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter your last name">
-        </div>
-      </div>
-      <div class="row">
-        <div class="form-group col">
-          <label for="firstName">Business/Startup Name</label>
-          <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter....">
-        </div>
-        <div class="form-group col">
-          <label for="lastName">Address</label>
-          <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter....">
+          <label for="lastname">Last Name</label>
+          <input type="text" class="form-control" id="lastname" formControlName="lastname" placeholder="Enter your last name">
         </div>
       </div>
       <div class="row">
         <div class="form-group col">
-          <label for="firstName">City</label>
-          <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter....">
+          <label for="startupname">Business/Startup Name</label>
+          <input type="text" class="form-control" id="startupname" formControlName="startupname"  placeholder="Enter....">
         </div>
         <div class="form-group col">
-          <label for="lastName">State</label>
-          <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter....">
-        </div>
-        <div class="form-group col">
-          <label for="lastName">Zipcode</label>
-          <input type="number" class="form-control" id="lastName" name="lastName" placeholder="123456">
+          <label for="address">Address</label>
+          <input type="text" class="form-control" id="address" formControlName="address" placeholder="Enter....">
         </div>
       </div>
       <div class="row">
         <div class="form-group col">
-          <label for="firstName">Mobile Number</label>
-          <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter....">
+          <label for="city">City</label>
+          <input type="text" class="form-control" id="city" formControlName="city" placeholder="Enter your city">
         </div>
         <div class="form-group col">
-          <label for="lastName">Email Id</label>
-          <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter....">
+          <label for="state">State</label>
+          <input type="text" class="form-control" id="state" formControlName="state" placeholder="Enter....">
+        </div>
+        <div class="form-group col">
+          <label for="zipcode">Zipcode</label>
+          <input type="text" class="form-control" formControlName="zipcode" id="zipcode" placeholder="123456">
+          <div *ngIf="becomeSeller.get('zipcode')?.errors?.['minlength'] || becomeSeller.get('zipcode')?.errors?.['maxlength']">
+            Zipcode must be 6 characters long.
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col">
+          <label for="mobnumber">Mobile Number</label>
+          <input type="text" class="form-control" id="mobnumber" formControlName="mobnumber" placeholder="Enter....">
+          <div *ngIf="becomeSeller.get('mobnumber')?.errors?.['minlength'] || becomeSeller.get('mobnumber')?.errors?.['maxlength']">
+            Mobile number must be 10 characters long.
+          </div>
+        </div>
+        <div class="form-group col">
+          <label for="email">Email Id</label>
+          <input type="text" class="form-control" formControlName="email" id="email" placeholder="Enter....">
+          <div *ngIf="becomeSeller.get('email')?.errors?.['email']">
+            Please enter a valid email address.
+          </div>
         </div>
       </div> 
       <label for="timing" class="main">Business Timings</label>
       <div class="checkbox-container row">
         <div class="checkbox-group col">
-          <input type="checkbox" id="sun" name="day" />
+          <input type="checkbox" id="sun" value="sun" formControlName="buztime" />
           <label for="sun">Sun</label>
         </div>
     
         <div class="checkbox-group col">
-          <input type="checkbox" id="mon" name="day" />
+          <input type="checkbox" id="mon" value="mon" formControlName="buztime" />
           <label for="mon">Mon</label>
         </div>
     
         <div class="checkbox-group col">
-          <input type="checkbox" id="tue" name="day" />
+          <input type="checkbox" id="tue" value="tue" formControlName="buztime" />
           <label for="tue">Tue</label>
         </div>
     
         <div class="checkbox-group col">
-          <input type="checkbox" id="wed" name="day" />
+          <input type="checkbox" id="wed" value="wed" formControlName="buztime" />
           <label for="wed">Wed</label>
         </div>
     
         <div class="checkbox-group col">
-          <input type="checkbox" id="thurs" name="day" />
+          <input type="checkbox" id="thurs" value="thurs" formControlName="buztime" />
           <label for="thurs">Thurs</label>
         </div>
     
         <div class="checkbox-group col">
-          <input type="checkbox" id="fri" name="day" />
+          <input type="checkbox" id="fri" value="fri" formControlName="buztime" />
           <label for="fri">Fri</label>
         </div>
     
         <div class="checkbox-group col">
-          <input type="checkbox" id="sat" name="day" />
+          <input type="checkbox" id="sat" value="sat" formControlName="buztime" />
           <label for="sat">Sat</label>
         </div>
       </div>  
       <div class="row">
         <div class="form-group col">
-          <label for="firstName">Opens At</label>
-          <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter....">
+          <label for="opensat">Opens At</label>
+          <input type="text" class="form-control" id="opensat" formControlName="opensat" placeholder="Enter....">
         </div>
         <div class="form-group col">
-          <label for="lastName">Closes At</label>
-          <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter....">
+          <label for="closesat">Closes At</label>
+          <input type="text" class="form-control" id="closesat" formControlName="closesat" placeholder="Enter....">
         </div>
       </div>
       <label for="establishment" class="main">Year of Establishment</label>
       <div class="row">
         <div class="form-group col">
           <label for="month">Month</label>
-          <select class="form-control" id="month" name="month">
+          <select class="form-control" id="month" formControlName="yoemonth">
             <option value="January">January</option>
             <option value="February">February</option>
             <option value="March">March</option>
@@ -150,14 +159,14 @@
         </div>
         <div class="form-group col">
           <label for="year">Year</label>
-          <input type="text" class="form-control" id="year" name="year" placeholder="Enter year (yyyy)" pattern="\d{4}" title="Enter a 4-digit year">
+          <input type="text" class="form-control" id="year" formControlName="yoeyear" placeholder="Enter year (yyyy)" pattern="\d{4}" title="Enter a 4-digit year">
         </div>
       </div>
       <label for="category" class="main">Business Category</label>
       <div class="row">
         <div class="form-group col-md-6">
-          <label for="firstName">Select Business Category</label>
-          <select class="form-control" id="month" name="month">
+          <label for="category">Select Business Category</label>
+          <select class="form-control" id="category" formControlName="bcategory">
             <option value="Category1">Category1</option>
             <option value="Category2">Category2</option>
             <option value="Category3">Category3</option>
@@ -167,11 +176,11 @@
       <label for="website" class="main">Business Website</label>
       <div class="row">
         <div class="form-group col-md-6">
-          <label for="firstName">Add Business Website</label>
-          <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter....">
+          <label for="bwebsite">Add Business Website</label>
+          <input type="text" class="form-control" id="bwebsite" formControlName="bwebsite"  placeholder="Enter....">
         </div>
       </div>
-      <a routerLink="/selleradd" routerLinkActive="active" ariaCurrentWhenActive="page" class="btn">Next Session</a>
+      <button type="submit" class="btn">Next Session</button>
     </form>
   </div>
 
