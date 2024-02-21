@@ -12,7 +12,7 @@ textarea.ng-touched.ng-invalid {
 .form-container {
   font-family: Arial, sans-serif;
   width: 100%;
-  padding: 50px;
+  padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
