@@ -74,7 +74,7 @@
     line-height: normal;
     width: 30%;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 500px) {
     .column {
       width: 100%;
       align-items: center;
@@ -177,7 +177,7 @@
     width: 70%;
     margin-left: 20px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 500px) {
     .column-2 {
       width: 100%;
       margin: 0;
