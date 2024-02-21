@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 80px;
   }
   @media (max-width: 500px) {
     .div {
@@ -428,17 +428,17 @@
     }
   }
   .div-44 {
-    margin-top: 60px;
+    margin-top: 40px;
     width: 100%;
   }
   @media (max-width: 500px) {
     .div-44 {
       max-width: 100%;
-      margin-top: 40px;
+      margin-top: 20px;
     }
   }
   .div-45 {
-    gap: 10px;
+    gap: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -888,18 +888,17 @@
   }
   .div-80 {
     align-self: end;
-    margin-top: 60px;
-    width: 1251px;
-    max-width: 100%;
+    margin-top: 40px;
+    width: 100%;
   }
   @media (max-width: 500px) {
     .div-80 {
       padding-right: 20px;
-      margin-top: 40px;
+      margin-top: 20px;
     }
   }
   .div-81 {
-    gap: 10px;
+    gap: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -908,7 +907,6 @@
     .div-81 {
       align-items: center;
       width: 100%;
-      gap: 0px;
     }
   }
   .column-7 {
