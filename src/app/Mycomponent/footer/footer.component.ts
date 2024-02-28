@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [FooterComponent,RouterModule,RouterLink,RouterLinkActive,RouterOutlet],
   templateUrl: './footer.component.html',
-  styleUrl: './footer.component.css'
+  styleUrl: './footer.component.css',
 })
 export class FooterComponent {
   redirectToFacebook() {

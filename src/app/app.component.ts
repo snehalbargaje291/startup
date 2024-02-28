@@ -10,7 +10,7 @@ import { RouterLinkActive } from '@angular/router';
   standalone: true,
   imports: [RouterModule, RouterLink, RouterLinkActive, RouterOutlet, FooterComponent, StartupComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'startupidea';
