@@ -88,7 +88,7 @@ a{
     flex-direction: column;
     line-height: normal;
     width: 19%;
-    margin-left: 0px;
+    margin-left: 10px;
   }
   @media (max-width: 600px) {
     .column {
