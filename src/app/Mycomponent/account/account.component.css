@@ -76,7 +76,7 @@ a{
     gap: 20px;
     display: flex;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
     .div-9 {
       flex-direction: column;
       align-items: stretch;
@@ -90,8 +90,9 @@ a{
     width: 19%;
     margin-left: 0px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
     .column {
+      padding-left: 30px;
       width: 100%;
     }
   }
@@ -175,7 +176,7 @@ a{
     width: 81%;
     margin-left: 20px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
     .column-2 {
       width: 100%;
       margin: 0px;
@@ -243,11 +244,11 @@ a{
     justify-content: center;
     align-items: start;
     white-space: nowrap;
-    padding: 19px 60px 19px 16px;
+    padding: 10px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
     .div-24 {
-      padding-right: 20px;
+      padding-right: 4px;
       white-space: initial;
     }
   }
@@ -268,11 +269,11 @@ a{
     justify-content: center;
     align-items: start;
     white-space: nowrap;
-    padding: 19px 60px 19px 16px;
+    padding: 10px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
     .div-27 {
-      padding-right: 20px;
+      padding-right: 4px;
       white-space: initial;
     }
   }
@@ -313,11 +314,11 @@ a{
     margin-top: 8px;
     justify-content: center;
     align-items: start;
-    padding: 17px 60px 17px 16px;
+    padding: 10px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
     .div-31 {
-      padding-right: 20px;
+      padding-right: 4px;
       white-space: initial;
     }
   }
@@ -342,12 +343,12 @@ a{
     margin-top: 8px;
     justify-content: center;
     align-items: start;
-    padding: 17px 60px 17px 16px;
+    padding: 10px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
     .div-34 {
       white-space: initial;
-      padding-right: 20px;
+      padding-right: 4px;
     }
   }
   .div-35 {
@@ -371,51 +372,13 @@ a{
     color: var(--Text2, #000);
     font-weight: 400;
     white-space: nowrap;
-    padding: 19px 60px 19px 16px;
+    padding: 10px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
     .div-36 {
       white-space: initial;
       max-width: 100%;
-      padding-right: 20px;
-    }
-  }
-  .div-37 {
-    font-family: Poppins, sans-serif;
-    border-radius: 4px;
-    background-color: var(--Secondary, #f5f5f5);
-    margin-top: 16px;
-    justify-content: center;
-    align-items: start;
-    color: var(--Text2, #000);
-    font-weight: 400;
-    white-space: nowrap;
-    padding: 19px 60px 19px 16px;
-  }
-  @media (max-width: 991px) {
-    .div-37 {
-      white-space: initial;
-      max-width: 100%;
-      padding-right: 20px;
-    }
-  }
-  .div-38 {
-    font-family: Poppins, sans-serif;
-    border-radius: 4px;
-    background-color: var(--Secondary, #f5f5f5);
-    margin-top: 16px;
-    justify-content: center;
-    align-items: start;
-    color: var(--Text2, #000);
-    font-weight: 400;
-    white-space: nowrap;
-    padding: 19px 60px 19px 16px;
-  }
-  @media (max-width: 991px) {
-    .div-38 {
-      white-space: initial;
-      max-width: 100%;
-      padding-right: 20px;
+      padding-right: 4px;
     }
   }
   .div-39 {
@@ -448,14 +411,14 @@ a{
     flex-grow: 1;
     color: var(--Text, #fafafa);
     font-weight: 500;
-    padding: 16px 48px;
+    padding: 10px 20px;
     border: none;
     outline: none;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
     .div-41 {
       white-space: initial;
-      padding: 0 20px;
+      padding: 10px;
     }
   }
 
