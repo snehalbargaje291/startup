@@ -73,6 +73,7 @@
     color: var(--Text2, #000);
     letter-spacing: 1.44px;
     white-space: nowrap;
+    line-height: 2 ;
     font: 500 36px/83% Inter, sans-serif;
   }
   @media (max-width: 991px) {
