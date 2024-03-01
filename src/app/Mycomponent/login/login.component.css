@@ -10,8 +10,9 @@
         }
       }
       .div-3 {
-        gap: 20px;
+        gap:40px;
         display: flex;
+        justify-content: space-evenly;
       }
       @media (max-width: 500px) {
         .div-3 {
@@ -72,10 +73,9 @@
       .div-6 {
         color: var(--Text2, #000);
         letter-spacing: 1.44px;
-        white-space: nowrap;
         font: 500 36px/83% Inter, sans-serif;
       }
-      @media (max-width: 991px) {
+      @media (max-width: 600px) {
         .div-6 {
           white-space: initial;
         }
