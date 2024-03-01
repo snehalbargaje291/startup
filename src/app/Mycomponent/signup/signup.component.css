@@ -2,11 +2,7 @@
     background-color: var(--BG, #fff);
     display: flex;
     flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div {
-      padding-right: 20px;
-    }
+    justify-content: center;
   }
   .div-3 {
     gap: 40px;
@@ -18,6 +14,7 @@
       flex-direction: column;
       align-items: stretch;
       gap: 0px;
+      justify-content: center;
     }
   }
   .column {
@@ -54,6 +51,7 @@
   @media (max-width: 500px) {
     .column-2 {
       width: 100%;
+      margin: 0;
     }
   }
   .div-5 {
@@ -73,7 +71,7 @@
     color: var(--Text2, #000);
     letter-spacing: 1.44px;
     white-space: nowrap;
-    line-height: 2 ;
+    line-height: 2;
     font: 500 36px/83% Inter, sans-serif;
   }
   @media (max-width: 991px) {

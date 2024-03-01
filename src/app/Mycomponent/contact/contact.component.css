@@ -291,10 +291,11 @@
     font-weight: 500;
     padding: 16px 48px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
     .div-28 {
       white-space: initial;
       padding: 5px 20px;
+      align-self: center;
     }
   }
 

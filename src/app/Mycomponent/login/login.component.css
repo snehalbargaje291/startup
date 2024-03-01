@@ -55,6 +55,7 @@
       @media (max-width: 500px) {
         .column-2 {
           width: 100%;
+          margin: 0;
         }
       }
       .div-5 {

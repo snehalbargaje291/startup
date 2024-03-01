@@ -153,8 +153,10 @@
 .div-24 {
   margin-top: 80px;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
-@media (max-width: 991px) {
+@media (max-width: 600px) {
   .div-24 {
     max-width: 80%;
     margin-top: 40px;
@@ -162,6 +164,7 @@
 }
 .div-25 {
   display: flex;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .div-25 {
@@ -190,7 +193,7 @@
   white-space: nowrap;
   line-height: 150%;
 }
-@media (max-width: 991px) {
+@media (max-width: 600px) {
   .div-26 {
     width: 100%;
     flex-wrap: wrap;
@@ -259,7 +262,7 @@
   width: 100%;
   padding: 35px 24px;
 }
-@media (max-width: 991px) {
+@media (max-width: 600px) {
   .div-29 {
     max-width: 100%;
     margin-top: 40px;
@@ -271,7 +274,7 @@
   font: 500 20px/140% Poppins, -apple-system, Roboto, Helvetica,
     sans-serif;
 }
-@media (max-width: 991px) {
+@media (max-width: 600px) {
   .div-30 {
     max-width: 80%;
   }
@@ -283,7 +286,7 @@
   gap: 20px;
   white-space: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 600px) {
   .div-31 {
     max-width: 100%;
     flex-wrap: wrap;
