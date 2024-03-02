@@ -10,7 +10,7 @@
   }
   .div-268 {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly ;
   }
   @media (max-width: 500px) {
     .div-268 {

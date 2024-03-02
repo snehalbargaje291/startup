@@ -101,8 +101,10 @@ input[type="checkbox"] {
 
 @media (max-width: 500px) {
   .btn{
-    padding: 5px 10px;
+    padding: 10px 20px;
     width: 50%;
+    float: none;
+    margin: 0 25%;
   }
 }
 
