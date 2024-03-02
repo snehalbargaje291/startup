@@ -121,14 +121,14 @@
         color: var(--Text, #fafafa);
         font-weight: 500;
         white-space: nowrap;
-        padding: 10px 30px;
+        padding: 10px 20px;
         border: none;
         outline: none;
       }
-      @media (max-width: 600px) {
+      @media (max-width: 900px) {
         .div-13 {
           white-space: initial;
-          padding: 10px 20px;
+          padding: 5px 10px;
         }
         .div-12{
           gap:5px;
