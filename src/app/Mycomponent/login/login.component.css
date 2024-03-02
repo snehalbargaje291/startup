@@ -25,7 +25,6 @@
         display: flex;
         justify-content: center;
         line-height: normal;
-        width: 60%;
       }
       @media (max-width: 500px) {
         .column {
@@ -49,7 +48,6 @@
         display: flex;
         flex-direction: column;
         line-height: normal;
-        width: 30%;
         margin-top: 40px;
       }
       @media (max-width: 500px) {
@@ -128,15 +126,15 @@
       @media (max-width: 900px) {
         .div-13 {
           white-space: initial;
-          padding: 5px 10px;
+          padding: 10px 10px;
         }
         .div-12{
-          gap:5px;
+          gap:10px;
         }
       }
       @media (max-width: 400px){
         .div-13, .div-14 {
-          padding: 5px 10px;
+          padding: 10px 10px;
         }
       }
       .div-14 {
