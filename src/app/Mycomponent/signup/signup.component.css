@@ -129,7 +129,7 @@
     display: flex;
     margin-top: 16px;
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
     font-weight: 400;
     white-space: nowrap;
     padding: 10px 60px;
@@ -167,7 +167,7 @@
   @media (max-width: 600px) {
     .div-17 {
       white-space: initial;
-      padding: 5px 20px;
+      padding: 5px;
     }
   }
   .div-18 {
