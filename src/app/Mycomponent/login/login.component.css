@@ -111,7 +111,7 @@
         display: flex;
         margin-top: 40px;
         justify-content: space-between;
-        gap: 20px;
+        gap: 10px;
       }
       .div-13 {
         font-family: Poppins, sans-serif;
@@ -125,10 +125,18 @@
         border: none;
         outline: none;
       }
-      @media (max-width: 991px) {
+      @media (max-width: 600px) {
         .div-13 {
           white-space: initial;
           padding: 10px 20px;
+        }
+        .div-12{
+          gap:5px;
+        }
+      }
+      @media (max-width: 400px){
+        .div-13, .div-14 {
+          padding: 5px 10px;
         }
       }
       .div-14 {
