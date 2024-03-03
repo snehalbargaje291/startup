@@ -2904,4 +2904,44 @@ a{
       flex-basis: auto;
     }
 
-    
+    .div-248 {
+      align-self: start;
+      display: flex;
+      gap: 10px;
+      font-size: 16px;
+      color: var(--Secondary-2, #db4444);
+      font-weight: 500;
+      white-space: nowrap;
+      margin-top: 60px;
+    }
+    /* @media (max-width: 500px) {
+      .div-248 {
+        margin: 0;
+      }
+    } */
+    .div-249 {
+      border-radius: 4px;
+      background-color: var(--Secondary-2, #db4444);
+      width: 20px;
+      height: 40px;
+    }
+    .div-250 {
+      font-family: Poppins, sans-serif;
+      flex-grow: 1;
+      flex-basis: auto;
+      margin: auto 0;
+    }
+    .div-251 {
+      color: var(--Text2, #000);
+      letter-spacing: 1.44px;
+      align-self: start;
+      white-space: nowrap;
+      margin-top: 20px;
+      font: 500 36px/133% Inter, sans-serif;
+    }
+    @media (max-width: 500px) {
+      .div-251 {
+        margin-left: 10px;
+        white-space: initial;
+      }
+    }
