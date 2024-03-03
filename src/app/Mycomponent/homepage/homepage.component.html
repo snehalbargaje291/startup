@@ -74,14 +74,14 @@
           class="img-33" />
       </div>
     </div>
-    <div class="div-119">
-      <div class="div-120">
+    <div class="div-119" >
+      <div class="div-120" *ngFor="let category of categories">
         <img loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/2409da962dec22c102f2fd721af4b7a864d056dc26bf04a15a73bedeeb809098?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
           class="img-34" />
-        <div class="div-121">Phones</div>
+        <div class="div-121">{{ category.CategoryName }}</div>
       </div>
-      <div class="div-120">
+      <!-- <div class="div-120">
         <img loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/f0a89a05cdd697f7314d1ad4550028d2a6008c8861270d6bc4b91ce2ba5f7cf7?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
           class="img-34" />
@@ -110,7 +110,7 @@
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/60f97336e08971bcc851f19cc8a5815fd613286bb5b7235b7b56909df07b5ae9?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
           class="img-34" />
         <div class="div-121">Gaming</div>
-      </div>
+      </div> -->
     </div>
     <div class="div-132"></div>
     <div class="div-133">
@@ -124,7 +124,7 @@
       <div class="div-139">View All</div>
     </div>
     <div class="div-140">
-      <div class="div-141 d-flex justify-content-center">
+      <div class="div-141">
         <app-product [imageSrc]="'../../../assets/homepage/h5.png'"></app-product>
         <app-product [imageSrc]="'../../../assets/homepage/h6.png'"></app-product>
         <app-product [imageSrc]="'../../../assets/homepage/h7.png'"></app-product>
@@ -152,7 +152,7 @@
       </div>
     </div>
     <div class="div-175">
-      <div class="div-176 d-flex justify-content-center">
+      <div class="div-176">
         <app-product [imageSrc]="'../../../assets/homepage/h9.png'"></app-product>
         <app-product [imageSrc]="'../../../assets/homepage/h10.png'"></app-product>
         <app-product [imageSrc]="'../../../assets/homepage/h11.png'"></app-product>
@@ -164,7 +164,7 @@
       </div>
     </div>
     <div class="div-247">View All Products</div>
-    <div class="container">
+    <div class="container p-0 m-0">
       <app-newarrival></app-newarrival>
     </div>
     <app-last3></app-last3>

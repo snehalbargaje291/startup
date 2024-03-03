@@ -1166,10 +1166,11 @@ a{
   font-size: 16px;
   color: var(--Text2, #000);
   font-weight: 400;
-  white-space: nowrap;
+  white-space: wrap;
   line-height: 150%;
+  overflow-x: auto;
 }
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
   .div-119 {
     max-width: 100%;
     flex-wrap: wrap;
@@ -1315,6 +1316,7 @@ a{
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
 }
 @media (max-width: 1024px) {
@@ -1370,6 +1372,7 @@ a{
 @media (max-width: 1024px) {
   .div-144 {
     white-space: initial;
+    justify-content: center;
   }
 }
 .div-145 {
@@ -1753,10 +1756,13 @@ a{
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 @media (max-width: 1024px) {
   .div-176 {
     align-items: center;
+    justify-content: center;
     gap: 0px;
   }
 }
