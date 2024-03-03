@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 80px;
   }
   @media (max-width: 991px) {
     .div {
@@ -219,7 +219,6 @@
     display: flex;
     margin-top: 59px;
     width: 100%;
-    max-width: 1170px;
     justify-content: space-between;
     gap: 20px;
   }
@@ -359,9 +358,7 @@
   .div-37 {
     display: flex;
     margin-top: 50px;
-    width: 1170px;
-    max-width: 100%;
-    padding-right: 80px;
+    width: 100%;
     justify-content: space-between;
     gap: 20px;
   }
@@ -848,13 +845,10 @@
     flex-basis: auto;
   }
   .div-77 {
-    align-self: end;
     display: flex;
     margin-top: 54px;
-    width: 1251px;
-    max-width: 100%;
-    padding-right: 80px;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-evenly;
     gap: 20px;
   }
   @media (max-width: 991px) {
@@ -869,7 +863,7 @@
     letter-spacing: 1.44px;
     flex-grow: 1;
     flex-basis: auto;
-    font: 600 36px/133% Inter, sans-serif;
+    font: 500 36px/133% Inter, sans-serif;
   }
   .div-79 {
     justify-content: center;
