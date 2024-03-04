@@ -12,7 +12,7 @@ import { RouterModule, Router } from '@angular/router';
   styleUrl: './signup.component.css'
 })
 export class SignupComponent implements OnInit {
-  formData:any={data:[{}]}
+  formData:any={}
   constructor(private http:HttpClient, private router: Router) { }
   ngOnInit(): void {
   }
