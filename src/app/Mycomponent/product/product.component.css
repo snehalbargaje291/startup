@@ -94,7 +94,6 @@
     .divp-7 {
       color: var(--Button, #5a5a5a);
       font-family: Poppins, sans-serif;
-      text-decoration: line-through;
       flex-grow: 1;
       flex-basis: auto;
     }

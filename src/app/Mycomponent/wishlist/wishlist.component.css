@@ -279,29 +279,7 @@
       margin: auto 0;
       font: 400 20px/130% Poppins, sans-serif;
     }
-    .div-48 {
-      margin-top: 60px;
-      width: 100%;
-      max-width: 1170px;
-    }
-    @media (max-width: 991px) {
-      .div-48 {
-        max-width: 100%;
-        margin-top: 40px;
-      }
-    }
-    .div-49 {
-      gap: 20px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-    }
-    @media (max-width: 500px) {
-      .div-49 {
-        align-items: center;
-        gap: 10px;
-      }
-    }
+    
     .div-50 {
       display: flex;
       flex-grow: 1;
