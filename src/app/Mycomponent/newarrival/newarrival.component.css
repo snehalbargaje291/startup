@@ -1,218 +1,122 @@
 .div-252 {
-  margin-top: 60px;
+  margin-top: 30px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 @media (max-width: 991px) {
   .div-252 {
     max-width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
+
 .div-253 {
   gap: 20px;
   display: flex;
+  height: 700px;
 }
+
 @media (max-width: 991px) {
   .div-253 {
     flex-direction: column;
     align-items: stretch;
-    gap: 0px;
+    gap: 20px; /* Adjust gap as needed */
+    overflow-x: hidden;
   }
 }
-.div-254 {
+
+.div-254,
+.div-260,
+.div-261 {
+  position: relative;
   border-radius: 4px;
   background-color: var(--Button, #000);
   display: flex;
-  flex-grow: 1;
   flex-direction: column;
   color: var(--Text, #fafafa);
   width: 100%;
-  padding: 50px 29px 0;
+  padding: 0 20px;
+  overflow: hidden;
 }
+
+
 @media (max-width: 991px) {
-  .div-254 {
+  .div-254,
+  .div-260,
+  .div-261 {
     max-width: 100%;
     margin-top: 30px;
     padding: 0 20px;
   }
 }
-.div-255 {
+
+.div-255{
   display: flex;
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  display: flex;
   min-height: 511px;
   margin-top: 39px;
   align-items: start;
-  padding: 50px 80px 32px 0;
-}
-@media (max-width: 991px) {
-  .div-255 {
-    max-width: 100%;
-    padding-right: 20px;
-  }
-}
-.img-77 {
-  position: absolute;
-  inset: 0;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-.div-256 {
-  position: relative;
-  letter-spacing: 0.72px;
-  margin-top: 307px;
-  font: 600 24px/100% Inter, sans-serif;
-}
-@media (max-width: 991px) {
-  .div-256 {
-    margin-top: 40px;
-  }
-}
-.div-257 {
-  position: relative;
-  margin-top: 16px;
-  width: 242px;
-  font: 400 14px/21px Poppins, -apple-system, Roboto, Helvetica,
-    sans-serif;
-}
-.div-258 {
-  position: relative;
-  color: #fff;
-  margin-top: 16px;
-  font: 500 16px/150% Poppins, -apple-system, Roboto, Helvetica,
-    sans-serif;
-}
-.column-17 {
-  display: flex;
-  flex-direction: column;
-  line-height: normal;
-  width: 50%;
-  margin-left: 20px;
-}
-@media (max-width: 991px) {
-  .column-17 {
-    width: 100%;
-    align-items: center;
-    margin: 0;
-  }
-}
-.div-259 {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-}
-@media (max-width: 991px) {
-  .div-259 {
-    max-width: 100%;
-    margin-top: 30px;
-  }
-}
-.div-260 {
-  border-radius: 4px;
-  background-color: #0d0d0d;
-  display: flex;
-  padding-left: 60px;
-  flex-direction: column;
+  padding: 50px 50px 52px 20px;
   justify-content: center;
-  align-items: end;
-  color: var(--Text, #fafafa);
-}
-@media (max-width: 991px) {
-  .div-260 {
-    max-width: 100%;
-    padding-left: 20px;
-  }
 }
 .div-261 {
   display: flex;
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  display: flex;
-  min-height: 284px;
-  width: 432px;
-  max-width: 100%;
+  min-height: 411px;
+  margin-top: 39px;
   align-items: start;
-  padding: 50px 80px 24px 0;
+  padding: 30px ;
+  justify-content: center;
 }
+
 @media (max-width: 991px) {
+  .div-255,
   .div-261 {
+    max-width: 100%;
     padding-right: 20px;
   }
 }
+
+.img-77,
 .img-78 {
   position: absolute;
   inset: 0;
-  height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
+
+.div-256,
 .div-262 {
   position: relative;
   letter-spacing: 0.72px;
-  margin-top: 88px;
-  white-space: nowrap;
+  margin-top: 20px; /* Adjust margin-top as needed */
   font: 600 24px/100% Inter, sans-serif;
 }
-@media (max-width: 991px) {
-  .div-262 {
-    margin-top: 40px;
-    white-space: initial;
-  }
-}
+
+.div-257,
 .div-263 {
   position: relative;
   margin-top: 16px;
-  width: 255px;
-  font: 400 14px/21px Poppins, -apple-system, Roboto, Helvetica,
-    sans-serif;
+  width: 100%; /* Adjust width as needed */
+  font: 400 14px/21px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
 }
+
+.div-258,
 .div-264 {
   position: relative;
   color: #fff;
   margin-top: 16px;
-  font: 500 16px/150% Poppins, -apple-system, Roboto, Helvetica,
-    sans-serif;
+  font: 500 16px/150% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
 }
-.div-265 {
-  justify-content: center;
-  margin-top: 32px;
-}
-@media (max-width: 991px) {
-  .div-265 {
-    max-width: 100%;
-  }
-}
-.div-266 {
-  gap: 20px;
-  display: flex;
-}
-@media (max-width: 991px) {
-  .div-266 {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0px;
-  }
-}
-.img-79 {
-  aspect-ratio: 0.95;
-  object-fit: auto;
-  object-position: center;
-  width: 100%;
-  flex-grow: 1;
-}
-@media (max-width: 991px) {
-  .img-79 {
-    margin-top: 30px;
-  }
-}
+
+.column-17,
 .column-18 {
   display: flex;
   flex-direction: column;
@@ -220,11 +124,54 @@
   width: 50%;
   margin-left: 20px;
 }
+
 @media (max-width: 991px) {
+  .column-17,
   .column-18 {
     width: 100%;
+    align-items: center;
+    margin: 0;
   }
 }
+
+.div-259 {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .div-259 {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+}
+
+.div-265 {
+  justify-content: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 991px) {
+  .div-265 {
+    max-width: 100%;
+  }
+}
+
+.div-266 {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .div-266 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px; /* Adjust gap as needed */
+  }
+}
+
+.img-79,
 .img-80 {
   aspect-ratio: 0.95;
   object-fit: auto;
@@ -232,8 +179,66 @@
   width: 100%;
   flex-grow: 1;
 }
-@media (max-width: 991px) {
-  .img-80 {
-    margin-top: 30px;
+@media (max-width: 600px) {
+  .div-252 {
+    margin-top: 20px;
+  }
+
+  .div-253 {
+    height: auto;
+  }
+
+  .div-254,
+  .div-260,
+  .div-261 {
+    padding: 0;
+  }
+
+  .div-255,
+  .div-261 {
+    padding: 50px 20px 52px;
+  }
+
+  .div-262,
+  .div-263,
+  .div-264 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .div-266 {
+    gap: 10px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .div-252 {
+    margin-top: 20px;
+  }
+
+  .div-253 {
+    height: auto;
+  }
+
+  .div-254,
+  .div-260,
+  .div-261 {
+    padding: 0;
+  }
+
+  .div-255,
+  .div-261 {
+    padding: 50px 20px 52px;
+  }
+
+  .div-262,
+  .div-263,
+  .div-264 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .div-266 {
+    gap: 10px;
   }
 }

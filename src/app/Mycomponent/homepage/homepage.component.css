@@ -1156,46 +1156,64 @@ a{
   object-position: center;
   width: 46px;
 }
-.div-119 {
+.divc-24 {
   display: flex;
   margin-top: 60px;
+  flex-wrap: wrap;
   width: 100%;
-  max-width: 1170px;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
   font-size: 16px;
   color: var(--Text2, #000);
   font-weight: 400;
-  white-space: wrap;
   line-height: 150%;
-  overflow-x: auto;
 }
-@media (max-width: 600px) {
-  .div-119 {
+@media (max-width: 500px) {
+  .divc-24 {
     max-width: 100%;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    white-space: initial;
+    margin-top: 20px;
   }
 }
-.div-120 {
+.divc-25 {
+  text-decoration: none;
+  color: #000;
   justify-content: center;
+  align-items: center;
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   display: flex;
   flex-grow: 1;
   flex-basis: 0%;
   flex-direction: column;
-  width: 100px;
-  padding: 20px 45px;
+  white-space: nowrap;
+  text-align: center;
+  padding: 20px;
 }
 @media (max-width: 1024px) {
-  .div-120 {
+  .divc-25 {
     white-space: initial;
   }
 }
-.div-120:hover{
+.divc-25:hover{
   background-color: #db4444;
+}
+.imgc-7 {
+  aspect-ratio: 2;
+  object-fit: auto;
+  object-position: center;
+  width: 68px;
+  height: 68px;
+  margin-left: 12px;
+}
+@media (max-width: 991px) {
+  .imgc-7 {
+    margin-left: 10px;
+  }
+}
+.divc-26 {
+  font-family: Poppins, sans-serif;
+  margin-top: 22px;
 }
 .img-34 {
   aspect-ratio: 1.03;
