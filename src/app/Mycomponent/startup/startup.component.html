@@ -12,35 +12,35 @@
         </div>
     </div>
 </div>
-<nav class="navbar navbar-expand-lg container">
-    <div class="container">
+<nav class="navbar navbar-expand-md px-2">
+    
         <a class="navbar-brand fw-bolder" href="#">STARTUP IDEA</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav m-auto mb-2 mb-lg-0">
+            <div class="navbar-nav m-auto mb-md-0 ">
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" routerLink=""
+                    <a class="nav-link fw-medium" ariaCurrentWhenActive="page" routerLink=""
                         routerLinkActive="active" (click)="resetTextAndRouterLink()">Home</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page"
+                    <a class="nav-link fw-medium" ariaCurrentWhenActive="page"
                         [routerLink]="initialRouterLinkAbout" routerLinkActive="active"
                         (click)="resetTextAndRouterLink()">{{displayTextAbout}}</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page" routerLink="about"
+                    <a class="nav-link fw-medium" ariaCurrentWhenActive="page" routerLink="about"
                         routerLinkActive="active" (click)="changeToContact()">About</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link mx-2 fw-medium" ariaCurrentWhenActive="page"
+                    <a class="nav-link fw-medium" ariaCurrentWhenActive="page"
                         routerLink="signup" (click)="resetTextAndRouterLink()" routerLinkActive="active">Signup</a>
                 </div>
             </div>
 
-            <form class="d-flex mx-4" role="search">
+            <form class="d-flex mx-1" role="search">
                 <input type="text" class="srch" placeholder="What are you looking for?">
                 <svg width="44" height="44" viewBox="0 0 24 24" fill="none" class="srch"
                     xmlns="http://www.w3.org/2000/svg">
@@ -59,11 +59,11 @@
                 ariaCurrentWhenActive="page">
                 <img loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/17fea4b203dd5dde9915b88754c6e8bec67a179e6ed855d7b67b59300d4dfa89?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
-                    class="img m-2" />
+                    class="img" />
             </a>
             <div class="dropdown">
                 <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png"
-                    alt="Dropdown" class="img m-2">
+                    alt="Dropdown" class="img">
                 <div class="dropdown-content">
                     <a href=""><img loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/d4d3933bd60bc7f03e80195cff61581a8fb5573107350371a713dbfa0482821b?"
@@ -83,6 +83,6 @@
                 </div>
             </div>
         </div>
-    </div>
+
 </nav>
 <hr>

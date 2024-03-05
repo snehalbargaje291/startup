@@ -19,7 +19,7 @@
   width: 100%;
   stroke-width: 1.5px;
   stroke: #000;
-  max-width: 32px;
+  max-width: 30px;
 }
 
 .dropdown .img:hover {
@@ -34,7 +34,7 @@
   width: 100%;
   stroke-width: 1.5px;
   stroke: #000;
-  max-width: 22px;
+  max-width: 20px;
 }
 
 .nav-item:hover {
@@ -85,9 +85,10 @@
   z-index: 1;
   right: 0;
 }
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
   .dropdown-content {
     left: 0;
+    right: auto;
   }
 }
 .dropdown-content a {
@@ -112,7 +113,7 @@
   object-fit: auto;
   object-position: center;
   width: 20px;
-  margin-right: 4px;
+  margin-right: 2px;
   align-items: center;
   justify-content: center;
 }
