@@ -13,7 +13,6 @@
 }
 
 .div-253 {
-  gap: 20px;
   display: flex;
   height: 700px;
 }
@@ -37,7 +36,7 @@
   flex-direction: column;
   color: var(--Text, #fafafa);
   width: 100%;
-  padding: 0 20px;
+  padding: 0 10px;
   overflow: hidden;
 }
 
@@ -122,7 +121,6 @@
   flex-direction: column;
   line-height: normal;
   width: 50%;
-  margin-left: 10px;
 }
 
 @media (max-width: 600px) {
