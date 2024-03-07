@@ -8,12 +8,12 @@
               />
           </div>
           <div class="column-2">
-            <form [formGroup]="loginForm" class="div-5" (submit)="onSubmitLogin();">
+            <form class="div-5" (ngSubmit)="login()">
               <div class="div-6">Log in to Startup Idea</div>
               <div class="div-7">Enter your details below</div>
-              <input type="text" class="div-8" formControlName="emailorphone" placeholder="Email or Phone Number">
+              <input type="text" class="div-8" ngModel name="email" placeholder="Email" required>
               <div class="div-9"></div>
-              <input type="password" class="div-8" formControlName="password" placeholder="Password">
+              <input type="password" class="div-8" ngModel name="password" placeholder="Password" required>
               <div class="div-9"></div>
               <div class="div-12">
                 <button type="submit" class="div-13">Log In</button>

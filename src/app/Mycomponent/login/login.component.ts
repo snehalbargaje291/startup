@@ -1,28 +1,34 @@
 import { Component } from '@angular/core';
-import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { RouterLink } from '@angular/router';
 import { RouterLinkActive } from '@angular/router';
 import { RouterOutlet } from '@angular/router';
+import { MyserviceService } from '../../myservice.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [LoginComponent,RouterModule,RouterLink,RouterLinkActive,RouterOutlet,ReactiveFormsModule],
+  imports: [HttpClientModule, LoginComponent,RouterModule,RouterLink,RouterLinkActive,RouterOutlet,FormsModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-  loginForm: FormGroup = new FormGroup({
-    emailorphone: new FormControl( '',[Validators.required]),
-    password: new FormControl('',[Validators.required])
-  })
-  onSubmitLogin(){
-    if (this.loginForm.valid && this.loginForm.value.emailorphone === 'snehal123@gmail.com' && this.loginForm.value.password === 'Sneh@123') {
-      alert('Login successful!');
-      console.log('Form submitted with values:', this.loginForm.value);
-    } else {
-      alert('Invalid credentials');
-    }
+  formData: any ={};
+
+  constructor(private myservice: MyserviceService){}
+
+  login(): void {
+    this.myservice.login(this.formData).subscribe(
+      (response: any) => {
+        console.log('Logged In Successfully!', response);
+        // Extract token from response and store it in local storage
+        const token = response.token;
+        localStorage.setItem('token', token);
+        // Additional logic after successful login (e.g., redirect)
+      }
+    );
   }
+  
 }
