@@ -28,7 +28,8 @@ export class StartupComponent {
   }
 
   logout(){
-    console.log("Logging out...");
+    console.warn("Logging out...");
+    alert("Logging out...");
     this.myservice.logoutUser();
   }
 }

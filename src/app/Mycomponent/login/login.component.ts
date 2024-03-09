@@ -6,6 +6,7 @@ import { RouterLinkActive } from '@angular/router';
 import { RouterOutlet } from '@angular/router';
 import { MyserviceService } from '../../myservice.service';
 import { HttpClientModule } from '@angular/common/http';
+import { warn } from 'node:console';
 
 @Component({
   selector: 'app-login',
@@ -25,6 +26,7 @@ export class LoginComponent {
       (response: any) => {
         if (response.success) {
           console.log('Logged In Successfully!', response);
+          alert(response.message);
           const token = response.token;
           localStorage.setItem('token', token);
           this.router.navigate(['/']);
