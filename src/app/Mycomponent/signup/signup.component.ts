@@ -24,7 +24,7 @@ export class SignupComponent implements OnInit {
     this.myservice.signUp(formData).subscribe(
       (response:any) => {
         console.log('Response:', response);
-        this.router.navigate(['']);
+        this.router.navigate(['./login']);
       }
     );
   }

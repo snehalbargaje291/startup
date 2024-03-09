@@ -23,12 +23,17 @@ export class LoginComponent {
   login(): void {
     this.myservice.login(this.formData).subscribe(
       (response: any) => {
-        console.log('Logged In Successfully!', response);
-        this.router.navigate(['/']);
-        const token = response.token;
-        localStorage.setItem('token', token);
+        if (response.success) {
+          console.log('Logged In Successfully!', response);
+          const token = response.token;
+          localStorage.setItem('token', token);
+          this.router.navigate(['/']);
+        } else {
+          console.error('Login failed:', response.message);
+        }
       }
     );
   }
+  
   
 }
