@@ -24,11 +24,11 @@
           <div class="col div-3">
             <div class="div-15">Account</div>
             <a routerLink="account" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-16 exclusivegmailcom">My Account</a>
-            <a routerLink="signup" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-17 exclusivegmailcom">Login / Register</a>
+            <a routerLink="signup" routerLinkActive="active" *ngIf="!myservice.loggedIn()" ariaCurrentWhenActive="page" class="div-17 exclusivegmailcom">Login / Register</a>
             <a routerLink="cart" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-18 exclusivegmailcom">Cart</a>
             <a routerLink="wishlist" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-19 exclusivegmailcom">Wishlist</a>
             <a routerLink="shop" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-20 exclusivegmailcom">Shop</a>
-            <a routerLink="sellereg" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-20 exclusivegmailcom">Become a Seller</a>
+            <a routerLink="sellereg" routerLinkActive="active" *ngIf="myservice.loggedIn()" ariaCurrentWhenActive="page" class="div-20 exclusivegmailcom">Become a Seller</a>
           </div>
           <div class="col div-3">
             <div class="div-22">Quick Link</div>

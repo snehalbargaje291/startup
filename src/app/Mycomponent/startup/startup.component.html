@@ -13,76 +13,71 @@
     </div>
 </div>
 <nav class="navbar navbar-expand-md px-2">
-    
-        <a class="navbar-brand fw-bolder" href="#">STARTUP IDEA</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav m-auto mb-md-0 ">
-                <div class="nav-item">
-                    <a class="nav-link fw-medium" ariaCurrentWhenActive="page" routerLink=""
-                        routerLinkActive="active" (click)="resetTextAndRouterLink()">Home</a>
-                </div>
-                <div class="nav-item">
-                    <a class="nav-link fw-medium" ariaCurrentWhenActive="page"
-                        [routerLink]="initialRouterLinkAbout" routerLinkActive="active"
-                        (click)="resetTextAndRouterLink()">{{displayTextAbout}}</a>
-                </div>
-                <div class="nav-item">
-                    <a class="nav-link fw-medium" ariaCurrentWhenActive="page" routerLink="about"
-                        routerLinkActive="active" (click)="changeToContact()">About</a>
-                </div>
-                <div class="nav-item">
-                    <a class="nav-link fw-medium" ariaCurrentWhenActive="page"
-                        routerLink="signup" (click)="resetTextAndRouterLink()" routerLinkActive="active">Signup</a>
-                </div>
+    <a class="navbar-brand fw-bolder" href="#">STARTUP IDEA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav m-auto mb-md-0 ">
+            <div class="nav-item">
+                <a class="nav-link fw-medium" ariaCurrentWhenActive="page" routerLink="" routerLinkActive="active"
+                    (click)="resetTextAndRouterLink()">Home</a>
             </div>
-
-            <form class="d-flex mx-1" role="search">
-                <input type="text" class="srch" placeholder="What are you looking for?">
-                <svg width="44" height="44" viewBox="0 0 24 24" fill="none" class="srch"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M20 20L16.2223 16.2156M18.3158 11.1579C18.3158 13.0563 17.5617 14.8769 16.2193 16.2193C14.8769 17.5617 13.0563 18.3158 11.1579 18.3158C9.2595 18.3158 7.43886 17.5617 6.0965 16.2193C4.75413 14.8769 4 13.0563 4 11.1579C4 9.2595 4.75413 7.43886 6.0965 6.0965C7.43886 4.75413 9.2595 4 11.1579 4C13.0563 4 14.8769 4.75413 16.2193 6.0965C17.5617 7.43886 18.3158 9.2595 18.3158 11.1579V11.1579Z"
-                        stroke="black" stroke-width="1.5" stroke-linecap="round" />
-                </svg>
-            </form>
-            <a routerLink="wishlist" routerLinkActive="active" (click)="resetTextAndRouterLink()"
-                ariaCurrentWhenActive="page">
-                <img loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3689f5ab735852b0fc3abbad57ad94a9afae35e2b4157709af9898340b6feb3?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
-                    class="img-2 m-2" />
-            </a>
-            <a routerLink="cart" routerLinkActive="active" (click)="resetTextAndRouterLink()"
-                ariaCurrentWhenActive="page">
-                <img loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/17fea4b203dd5dde9915b88754c6e8bec67a179e6ed855d7b67b59300d4dfa89?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
-                    class="img" />
-            </a>
-            <div class="dropdown">
-                <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png"
-                    alt="Dropdown" class="img">
-                <div class="dropdown-content">
-                    <a href=""><img loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d4d3933bd60bc7f03e80195cff61581a8fb5573107350371a713dbfa0482821b?"
-                            class="imgg" /> Manage My Account</a>
-                    <a href=""><img loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ca2606808d70f6c17d0a81b6b0bf390fd5c6c089fad99d24dbb560cee45a8d5?"
-                            class="imgg" /> My Order</a>
-                    <a href=""><img loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7e7c6ba2bb93dd220fb284aad10ce1603ed53aa47d0a3f16e946e70bda426b5?"
-                            class="imgg" /> My Cancellations</a>
-                    <a href=""><img loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/943c84ae3047cf3e3844a45ef6f5c62cb367d6032aaa74048785a1d185e49909?"
-                            class="imgg" /> My Reviews</a>
-                    <a href=""><img loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/5dd4ef2221a26eb97c44021b855f72d1aa05086d707c891b3a9c34b08b015240?"
-                            class="imgg" /> Logout</a>
-                </div>
+            <div class="nav-item">
+                <a class="nav-link fw-medium" ariaCurrentWhenActive="page" [routerLink]="initialRouterLinkAbout"
+                    routerLinkActive="active" (click)="resetTextAndRouterLink()">{{displayTextAbout}}</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link fw-medium" ariaCurrentWhenActive="page" routerLink="about" routerLinkActive="active"
+                    (click)="changeToContact()">About</a>
+            </div>
+            <div class="nav-item" *ngIf="!myservice.loggedIn()">
+                <a class="nav-link fw-medium" ariaCurrentWhenActive="page" routerLink="signup"
+                    (click)="resetTextAndRouterLink()" routerLinkActive="active">Signup</a>
             </div>
         </div>
+
+        <form class="d-flex mx-1" role="search">
+            <input type="text" class="srch" placeholder="What are you looking for?">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" class="srch" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M20 20L16.2223 16.2156M18.3158 11.1579C18.3158 13.0563 17.5617 14.8769 16.2193 16.2193C14.8769 17.5617 13.0563 18.3158 11.1579 18.3158C9.2595 18.3158 7.43886 17.5617 6.0965 16.2193C4.75413 14.8769 4 13.0563 4 11.1579C4 9.2595 4.75413 7.43886 6.0965 6.0965C7.43886 4.75413 9.2595 4 11.1579 4C13.0563 4 14.8769 4.75413 16.2193 6.0965C17.5617 7.43886 18.3158 9.2595 18.3158 11.1579V11.1579Z"
+                    stroke="black" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+        </form>
+        <a routerLink="wishlist" routerLinkActive="active" (click)="resetTextAndRouterLink()"
+            ariaCurrentWhenActive="page">
+            <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3689f5ab735852b0fc3abbad57ad94a9afae35e2b4157709af9898340b6feb3?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
+                class="img-2 m-2" />
+        </a>
+        <a routerLink="cart" routerLinkActive="active" (click)="resetTextAndRouterLink()" ariaCurrentWhenActive="page">
+            <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/17fea4b203dd5dde9915b88754c6e8bec67a179e6ed855d7b67b59300d4dfa89?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
+                class="img" />
+        </a>
+        <div *ngIf="myservice.loggedIn()" class="dropdown">
+            <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png" alt="Dropdown" class="img">
+            <div class="dropdown-content">
+                <a href=""><img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/d4d3933bd60bc7f03e80195cff61581a8fb5573107350371a713dbfa0482821b?"
+                        class="imgg" /> Manage My Account</a>
+                <a href=""><img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ca2606808d70f6c17d0a81b6b0bf390fd5c6c089fad99d24dbb560cee45a8d5?"
+                        class="imgg" /> My Order</a>
+                <a href=""><img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7e7c6ba2bb93dd220fb284aad10ce1603ed53aa47d0a3f16e946e70bda426b5?"
+                        class="imgg" /> My Cancellations</a>
+                <a href=""><img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/943c84ae3047cf3e3844a45ef6f5c62cb367d6032aaa74048785a1d185e49909?"
+                        class="imgg" /> My Reviews</a>
+                <a href="" (click)="logout()"><img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/5dd4ef2221a26eb97c44021b855f72d1aa05086d707c891b3a9c34b08b015240?"
+                        class="imgg" /> Logout</a>
+            </div>
+        </div>
+    </div>
 
 </nav>
 <hr>

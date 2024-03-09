@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -7,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class MyserviceService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router:Router) { }
 
   private apiUrl = 'http://3.111.47.3:24051/api/v1/userlogin';
 
@@ -19,15 +20,17 @@ export class MyserviceService {
     localStorage.setItem('token', token);
   }
 
+  loggedIn() {
+    return !! localStorage.getItem('token');
+  }
+
   getAuthToken(): string | null {
     return localStorage.getItem('token');
   }
 
-  clearAuthToken(): void {
-    localStorage.removeItem('token');
+  logoutUser() {
+    return localStorage.removeItem('token');
   }
-  
-  
   
   signUp(formData: any): Observable<any> {
     return this.http.post<any>('http://3.111.47.3:24051/api/v1/CreateUserDetails', formData);
