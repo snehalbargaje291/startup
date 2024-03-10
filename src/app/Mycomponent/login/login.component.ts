@@ -6,6 +6,7 @@ import { RouterLinkActive } from '@angular/router';
 import { RouterOutlet } from '@angular/router';
 import { MyserviceService } from '../../myservice.service';
 import { HttpClientModule } from '@angular/common/http';
+import { lastValueFrom } from 'rxjs';
 
 @Component({
   selector: 'app-login',
@@ -35,22 +36,25 @@ export class LoginComponent {
   //     }
   //   );
   // }
-  async login() {
-    alert("button works!");
   
-    try {
-      const response = await this.myservice.login(this.formData).toPromise();
-  
-      if (response.success) {
-        console.log('Logged In Successfully!', response);
-        const token = response.token;
-        localStorage.setItem('token', token);
-        this.router.navigate(['/']);
-      } else {
-        console.error('Login failed:', response.message);
-      }
-    } catch (error) {
-      console.error('An error occurred:', error);
+
+async login() {
+  alert("button works!");
+
+  try {
+    const response = await lastValueFrom(this.myservice.login(this.formData));
+
+    if (response.success) {
+      console.log('Logged In Successfully!', response);
+      const token = response.token;
+      localStorage.setItem('token', token);
+      this.router.navigate(['/']);
+    } else {
+      console.error('Login failed:', response.message);
     }
+  } catch (error) {
+    console.error('An error occurred:', error);
   }
+}
+
 }
