@@ -27,6 +27,7 @@ export class MyserviceService {
     if (typeof localStorage !== 'undefined') {
       return !!localStorage.getItem('token');
     } else {
+      console.error("localStorage is not supported in this environment.");
       return false;
     }
   }

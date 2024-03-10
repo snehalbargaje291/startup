@@ -21,14 +21,35 @@ export class SignupComponent implements OnInit {
   }
 
   signUpForm(formData: any): void {
+    if (typeof localStorage === 'undefined') {
+      console.error("localStorage is not supported in this environment.");
+      return;
+    }
     this.myservice.signUp(formData).subscribe(
-      (response:any) => {
-        console.log('Response:', response);
-        alert(response.message);
-        this.router.navigate(['./login']);
+      (response: any) => {
+        if (response) {
+          console.log('Response:', response);
+          alert(response.message);
+          this.router.navigate(['./login']);
+        } else {
+          console.error("Something went wrong...");
+        }
       }
     );
   }
+  
+
+  // signUpForm(formData: any): void {
+  //   this.myservice.signUp(formData).subscribe(
+  //     (response:any) => if (response) {
+  //       console.log('Response:', response);
+  //       alert(response.message);
+  //       this.router.navigate(['./login']);
+  //     } else {
+
+  //     }
+  // );
+  // }
 }
 
 
