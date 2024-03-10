@@ -21,7 +21,7 @@ export class SignupComponent implements OnInit {
   }
 
   signUpForm(formData: any) {
-    console.warn("Button working but..");
+    alert("Button working but..");
     if (typeof localStorage === 'undefined') {
       console.error("localStorage is not supported in this environment.");
       return;
