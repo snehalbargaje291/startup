@@ -27,7 +27,7 @@ export class LoginComponent {
         if (response.success) {
           console.log('Logged In Successfully!', response);
           const token = response.token;
-          sessionStorage.setItem('token', token);
+          localStorage.setItem('token', token);
           this.router.navigate(['/']);
         } else {
           console.error('Login failed:', response.message);

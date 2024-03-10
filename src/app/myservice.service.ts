@@ -17,27 +17,27 @@ export class MyserviceService {
   }
 
   setAuthToken(token: string): void {
-    sessionStorage.setItem('token', token);
+    localStorage.setItem('token', token);
   }
 
   // loggedIn() {
-  //   return !! sessionStorage.getItem('token');
+  //   return !! localStorage.getItem('token');
   // }
   loggedIn(): boolean {
-    if (typeof sessionStorage !== 'undefined') {
-      return !!sessionStorage.getItem('token');
+    if (typeof localStorage !== 'undefined') {
+      return !!localStorage.getItem('token');
     } else {
-      console.error("sessionStorage is not supported in this environment.");
+      console.error("localStorage is not supported in this environment.");
       return false;
     }
   }
 
   getAuthToken(): string | null {
-    return sessionStorage.getItem('token');
+    return localStorage.getItem('token');
   }
 
   logoutUser() {
-    return sessionStorage.removeItem('token');
+    return localStorage.removeItem('token');
   }
   
   signUp(formData: any): Observable<any> {

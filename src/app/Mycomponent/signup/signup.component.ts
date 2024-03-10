@@ -21,8 +21,8 @@ export class SignupComponent implements OnInit {
   }
 
   signUpForm(formData: any): void {
-    if (typeof sessionStorage === 'undefined') {
-      console.error("sessionStorage is not supported in this environment.");
+    if (typeof localStorage === 'undefined') {
+      console.error("localStorage is not supported in this environment.");
       return;
     }
     this.myservice.signUp(formData).subscribe(
