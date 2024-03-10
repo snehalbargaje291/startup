@@ -65,7 +65,6 @@
         font-size: 16px;
         line-height: 150%;
         margin: auto 0;
-        z-index: 1;
       }
       @media (max-width: 991px) {
         .div-5 {
