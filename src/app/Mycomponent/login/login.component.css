@@ -65,6 +65,7 @@
         font-size: 16px;
         line-height: 150%;
         margin: auto 0;
+        z-index: 1;
       }
       @media (max-width: 991px) {
         .div-5 {
@@ -123,7 +124,8 @@
         white-space: nowrap;
         padding: 10px 20px;
         border: none;
-        /* outline: none; */
+        z-index: 1;
+        outline: none;
       }
       @media (max-width: 900px) {
         .div-13 {
