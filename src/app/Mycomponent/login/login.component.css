@@ -123,6 +123,7 @@
         white-space: nowrap;
         padding: 10px 20px;
         border: none;
+        position: relative;
         z-index: 1;
         outline: none;
       }
