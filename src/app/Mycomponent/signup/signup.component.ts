@@ -36,19 +36,6 @@ export class SignupComponent implements OnInit {
       }
     );
   }
-  
-
-  // signUpForm(formData: any): void {
-  //   this.myservice.signUp(formData).subscribe(
-  //     (response:any) => if (response) {
-  //       console.log('Response:', response);
-  //       alert(response.message);
-  //       this.router.navigate(['./login']);
-  //     } else {
-
-  //     }
-  // );
-  // }
 }
 
 
