@@ -20,7 +20,8 @@ export class SignupComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  signUpForm(formData: any): void {
+  signUpForm(formData: any) {
+    console.warn("Button working but..");
     if (typeof localStorage === 'undefined') {
       console.error("localStorage is not supported in this environment.");
       return;
