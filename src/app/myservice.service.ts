@@ -20,8 +20,15 @@ export class MyserviceService {
     localStorage.setItem('token', token);
   }
 
-  loggedIn() {
-    return !! localStorage.getItem('token');
+  // loggedIn() {
+  //   return !! localStorage.getItem('token');
+  // }
+  loggedIn(): boolean {
+    if (typeof localStorage !== 'undefined') {
+      return !!localStorage.getItem('token');
+    } else {
+      return false;
+    }
   }
 
   getAuthToken(): string | null {
