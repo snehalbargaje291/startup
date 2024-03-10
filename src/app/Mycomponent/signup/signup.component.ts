@@ -29,7 +29,6 @@ export class SignupComponent implements OnInit {
       (response: any) => {
         if (response) {
           console.log('Response:', response);
-          alert(response.message);
           this.router.navigate(['./login']);
         } else {
           console.error("Something went wrong...");
