@@ -20,23 +20,19 @@ export class LoginComponent {
 
   constructor(private myservice: MyserviceService, private router: Router){}
 
-  // login(): void {
-  //   this.myservice.login(this.formData).subscribe(
-  //     (response: any) => {
-  //       if (response.success) {
-  //         console.log('Logged In Successfully!', response);
-  //         const token = response.token;
-  //         localStorage.setItem('token', token);
-  //         this.router.navigate(['/']);
-  //       } else {
-  //         console.error('Login failed:', response.message);
-  //       }
-  //     }
-  //   );
-  // }
-  login(){
+  login() {
     alert("button works!");
+    this.myservice.login(this.formData).subscribe(
+      (response: any) => {
+        if (response.success) {
+          console.log('Logged In Successfully!', response);
+          const token = response.token;
+          localStorage.setItem('token', token);
+          this.router.navigate(['/']);
+        } else {
+          console.error('Login failed:', response.message);
+        }
+      }
+    );
   }
-  
-  
 }
