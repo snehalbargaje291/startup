@@ -26,7 +26,6 @@ export class LoginComponent {
       (response: any) => {
         if (response.success) {
           console.log('Logged In Successfully!', response);
-          alert(response.message);
           const token = response.token;
           localStorage.setItem('token', token);
           this.router.navigate(['/']);
