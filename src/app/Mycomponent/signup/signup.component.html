@@ -17,7 +17,7 @@
           <div class="div-9"></div>
           <input type="password" class="div-8" placeholder="Password" name="Password" ngModel required>
           <div class="div-9"></div>
-          <button type="submit" class="div-14">Create Account</button>
+          <button type="submit" (touchstart)="signUpForm(myForm.value)" class="div-14">Create Account</button>
           <button class="div-15" type="button">
             <div class="div-16">
               <img loading="lazy"
