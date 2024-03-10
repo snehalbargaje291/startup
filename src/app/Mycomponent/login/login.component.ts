@@ -20,19 +20,37 @@ export class LoginComponent {
 
   constructor(private myservice: MyserviceService, private router: Router){}
 
-  login() {
+  // login() {
+  //   alert("button works!");
+  //   this.myservice.login(this.formData).subscribe(
+  //     (response: any) => {
+  //       if (response.success) {
+  //         console.log('Logged In Successfully!', response);
+  //         const token = response.token;
+  //         localStorage.setItem('token', token);
+  //         this.router.navigate(['/']);
+  //       } else {
+  //         console.error('Login failed:', response.message);
+  //       }
+  //     }
+  //   );
+  // }
+  async login() {
     alert("button works!");
-    this.myservice.login(this.formData).subscribe(
-      (response: any) => {
-        if (response.success) {
-          console.log('Logged In Successfully!', response);
-          const token = response.token;
-          localStorage.setItem('token', token);
-          this.router.navigate(['/']);
-        } else {
-          console.error('Login failed:', response.message);
-        }
+  
+    try {
+      const response = await this.myservice.login(this.formData).toPromise();
+  
+      if (response.success) {
+        console.log('Logged In Successfully!', response);
+        const token = response.token;
+        localStorage.setItem('token', token);
+        this.router.navigate(['/']);
+      } else {
+        console.error('Login failed:', response.message);
       }
-    );
+    } catch (error) {
+      console.error('An error occurred:', error);
+    }
   }
 }
