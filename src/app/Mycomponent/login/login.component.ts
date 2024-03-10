@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {  FormsModule } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
 import { RouterLink } from '@angular/router';
@@ -15,11 +15,15 @@ import { lastValueFrom } from 'rxjs';
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit{
   formData: any ={ "data": []
   };
 
   constructor(private myservice: MyserviceService, private router: Router){}
+
+  ngOnInit(): void {
+    
+  }
 
   login() {
     alert("button works!");
