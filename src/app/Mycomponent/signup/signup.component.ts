@@ -21,17 +21,19 @@ export class SignupComponent implements OnInit {
   }
 
   signUpForm(formData: any) {
-    alert("Button working but..");
+    alert("Signup Button working");
     if (typeof localStorage === 'undefined') {
-      console.error("localStorage is not supported in this environment.");
+      alert("localStorage is not supported in this environment.");
       return;
     }
     this.myservice.signUp(formData).subscribe(
       (response: any) => {
-        if (response) {
+        if (response.success) {
+          alert("response is success");
           console.log('Response:', response);
           this.router.navigate(['./login']);
         } else {
+          alert("Error..");
           console.error("Something went wrong...");
         }
       }

@@ -21,20 +21,20 @@ export class LoginComponent implements OnInit{
 
   constructor(private myservice: MyserviceService, private router: Router){}
 
-  ngOnInit(): void {
-    
-  }
+  ngOnInit(): void {}
 
   login() {
-    alert("button works!");
+    alert("Login button works!");
     this.myservice.login(this.formData).subscribe(
       (response: any) => {
         if (response.success) {
+          alert("Response is success");
           console.log('Logged In Successfully!', response);
           const token = response.token;
           localStorage.setItem('token', token);
           this.router.navigate(['/']);
         } else {
+          alert("Login failed");
           console.error('Login failed:', response.message);
         }
       }
