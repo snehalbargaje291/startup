@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { RouterModule,Router } from '@angular/router';
+import { MyserviceService } from '../../myservice.service';
 
 @Component({
   selector: 'app-sellereg',
@@ -11,42 +12,45 @@ import { RouterModule,Router } from '@angular/router';
   styleUrl: './sellereg.component.css'
 })
 export class SelleregComponent implements OnInit {
-
+    formData: any={data:[]}
     becomeSeller: FormGroup= new FormGroup({});
-    constructor(private router: Router) {}
+    constructor(private router: Router, private myservice:MyserviceService) {}
 
     ngOnInit(): void {
       console.log(this.becomeSeller);
       this.becomeSeller = new FormGroup({
-        firstname: new FormControl(null, Validators.required),
-        lastname: new FormControl(null, Validators.required),
-        startupname: new FormControl(null, Validators.required),
-        address: new FormControl(null, Validators.required),
-        city:new FormControl(null, Validators.required),
-        state: new FormControl(null, Validators.required),
-        zipcode: new FormControl(null, [Validators.required, Validators.minLength(6), Validators.maxLength(6)]),
-        mobnumber: new FormControl(null, [Validators.required, Validators.minLength(10), Validators.maxLength(10)]),
-        email: new FormControl(null ,[Validators.required,  Validators.email]),
-        buztime: new FormControl(null , [Validators.required]),
-        opensat: new FormControl(null, Validators.required),
-        closesat: new FormControl(null, Validators.required),
-        yoemonth: new FormControl('January', Validators.required),
-        yoeyear: new FormControl(null, Validators.required),
-        bcategory: new FormControl('Category1', Validators.required),
-        bwebsite: new FormControl(null, Validators.required)
+        FirstName: new FormControl(null, Validators.required),
+        LastName: new FormControl(null, Validators.required),
+        BusinessName: new FormControl(null, Validators.required),
+        Address: new FormControl(null, Validators.required),
+        City:new FormControl(null, Validators.required),
+        State: new FormControl(null, Validators.required),
+        ZipCode: new FormControl(null, [Validators.required, Validators.minLength(6), Validators.maxLength(6)]),
+        MobileNumber: new FormControl(null, [Validators.required, Validators.minLength(10), Validators.maxLength(10)]),
+        EmailId: new FormControl(null ,[Validators.required,  Validators.email]),
+        BusinessTiming: new FormControl(null , [Validators.required]),
+        OpenAt: new FormControl(null, Validators.required),
+        ClosedAt: new FormControl(null, Validators.required),
+        MonthOfEstablishment: new FormControl('January', Validators.required),
+        YearofEstablishment: new FormControl(null, Validators.required),
+        BusinessCategory: new FormControl('Category1', Validators.required),
+        BusinessWebsite: new FormControl(null, Validators.required)
       });
     }
 
-      SellerSubmit(){
-        console.log(this.becomeSeller);
-        const zipcodeControl = this.becomeSeller?.get('zipcode');
-          if (zipcodeControl) {
-            console.log(zipcodeControl.value);
-            console.log(zipcodeControl.errors);
+    SellerSubmit() {
+      if (this.becomeSeller.valid) {
+        const formData = this.becomeSeller.value; 
+        this.myservice.sellerForm(formData).subscribe(
+          (response: any) => {
+            if (response.success) {
+              console.log('Response:', response);
+              this.router.navigate(['/selleradd']);
+            } else {
+              console.error("Something went wrong...");
+            }
           }
-        if (this.becomeSeller.valid) {
-          this.router.navigate(['/selleradd']);
-          
-      }
+        );
       }
     }
+}

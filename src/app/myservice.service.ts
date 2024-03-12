@@ -38,12 +38,16 @@ export class MyserviceService {
   logoutUser() {
     return localStorage.removeItem('token');
   }
+  // helloo 8845
   
   signUp(formData: any): Observable<any> {
     return this.http.post<any>('http://3.111.47.3:24051/api/v1/CreateUserDetails', formData);
   }
   contactUs(formData: any): Observable<any> {
     return this.http.post<any>('http://3.111.47.3:24051/api/v1/CreateContactDetails', formData);
+  }
+  sellerForm(formData: any): Observable<any> {
+    return this.http.post<any>('http://3.111.47.3:24051/api/v1/CreatesellerDetails', formData);
   }
   category(): Observable<any> {
     return this.http.get<any>('http://3.111.47.3:24051/api/v1/getAllCategory');
