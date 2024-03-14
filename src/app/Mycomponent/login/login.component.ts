@@ -28,13 +28,12 @@ export class LoginComponent implements OnInit{
     this.myservice.login(this.formData).subscribe(
       (response: any) => {
         if (response.success) {
-          // alert("Response is success");
           console.log('Logged In Successfully!', response);
           const token = response.token;
+          localStorage.setItem('userData', JSON.stringify(response.data));
           localStorage.setItem('token', token);
           this.router.navigate(['/']);
         } else {
-          // alert("Login failed");
           console.error('Login failed:', response.message);
         }
       }

@@ -36,7 +36,8 @@ export class MyserviceService {
   }
 
   logoutUser() {
-    return localStorage.removeItem('token');
+    localStorage.removeItem('token');
+    localStorage.removeItem('userData');
   }
   // helloo 8845
 
@@ -53,15 +54,19 @@ export class MyserviceService {
   // npm install jwt-decode
   
   myAccount(): Observable<any> {
-    const token = localStorage.getItem('token');
-    console.log("Token: " +token);
-    if (token) {
-      const decodedToken: any = jwtDecode(token);
-      console.log("Decoded Token : " +JSON.stringify(decodedToken, null, 5));
-      const userId: number = decodedToken.user;
-      console.log("User Id : "+ userId);
-      return this.http.get<any>(`http://3.111.47.3:24051/api/v1/getSingleUserDetails/${userId}`);
+    const userDataString = localStorage.getItem('userData');
+    if (userDataString) {
+      const userData = JSON.parse(userDataString);
+      console.log("User Data:", userData);
+      const userId = userData[0]?.UserId; // Extract UserId from userData
+      if (userId) {
+        return this.http.get<any>(`http://3.111.47.3:24051/api/v1/getSingleUserDetails/${userId}`);
+      } else {
+        console.error("UserId not found in userData.");
+        return of(null);
+      }
     } else {
+      console.error("User data not found in localStorage.");
       return of(null);
     }
   }

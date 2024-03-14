@@ -23,7 +23,7 @@
         </div>
           <div class="col div-3">
             <div class="div-15">Account</div>
-            <a routerLink="account" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-16 exclusivegmailcom">My Account</a>
+            <a routerLink="account" routerLinkActive="active" *ngIf="myservice.loggedIn()" ariaCurrentWhenActive="page" class="div-16 exclusivegmailcom">My Account</a>
             <a routerLink="signup" routerLinkActive="active" *ngIf="!myservice.loggedIn()" ariaCurrentWhenActive="page" class="div-17 exclusivegmailcom">Login / Register</a>
             <a routerLink="cart" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-18 exclusivegmailcom">Cart</a>
             <a routerLink="wishlist" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-19 exclusivegmailcom">Wishlist</a>
