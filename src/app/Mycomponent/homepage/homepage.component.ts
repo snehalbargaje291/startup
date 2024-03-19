@@ -19,8 +19,6 @@ import { MyserviceService } from '../../myservice.service';
 })
 
 export class HomepageComponent implements OnInit {
-  // productName: string = "AK-900 Wired Keyboard";
-  // productPrice: number = 960;
   categories:any[]=[{data: []}];
   products: any[] = [{data:[]}];
   constructor(private myservice: MyserviceService) { }

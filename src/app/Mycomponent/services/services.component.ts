@@ -17,9 +17,23 @@ import { CommonModule } from '@angular/common';
 export class ServicesComponent {
 
   categories:any=[{data: []}];
+  products: any[] = [{data:[]}];
   constructor(private myservice: MyserviceService) { }
   ngOnInit(): void {
     this.fetchCategoryDetsails();
+    this.fetchProducts();
+  }
+
+  fetchProducts(): void {
+    this.myservice.getProducts().subscribe(
+      (response: any) => {
+        if (Array.isArray(response.data)) {
+          this.products = response.data;
+        } else {
+          console.error('Error: response.data is not an array');
+        }
+      }
+    );
   }
 
     fetchCategoryDetsails(): void {

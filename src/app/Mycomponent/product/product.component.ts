@@ -14,7 +14,7 @@ import { MyserviceService } from '../../myservice.service';
 })
 export class ProductComponent implements OnInit {
   @Input() imageSrc: string = '../../../assets/service/s4.png';
-  @Input() pName: string = '';
+  @Input() pName: string = 'Product1';
   @Input() pPrice: number = 0;
 
   constructor(){}
