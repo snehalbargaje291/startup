@@ -2,12 +2,20 @@
   display: inline-block;
   font-size: 0;
   width: fit-content;
+  background-color: white;
+  padding: 2px;
+  z-index: 1;
+  border-radius: 50%;
 }
 
 .view-rating {
   display: inline-block;
   font-size: 0;
+  z-index: 1;
   width: fit-content;
+  padding: 2px;
+  background-color: white;
+  border-radius: 50%;
 }
 
 .star-rating {
@@ -53,7 +61,6 @@
       object-position: center;
       width: 100%;
       align-self: center;
-      max-width: 250px;
       justify-self: center;
     }
     .divp-3 {
