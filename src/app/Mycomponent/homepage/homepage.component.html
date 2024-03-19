@@ -39,21 +39,16 @@
         </div>
       </div>
       <div class="div-41">
-        <img loading="lazy"
+        <img (click)="scrollDiv('right')" loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/6d46c131187bfff9eb633481579a064341b51d7196040ee40dd3f9577e445a5e?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
           class="img-5" />
-        <img loading="lazy"
+        <img (click)="scrollDiv('left')" loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/e88e31fcac886e936832d43b7fb2b7a3e219274da66d8e9d07a08a6cc7094c1b?apiKey=06fe0a709eb54a959aa6ff3471e84527&"
           class="img-6" />
       </div>
     </div>
-    <div class="div-42"> 
-      <app-product [imageSrc]="'../../../assets/homepage/h1.png'"></app-product>
-      <app-product [imageSrc]="'../../../assets/homepage/h2.png'"></app-product>
-      <app-product [imageSrc]="'../../../assets/homepage/h3.png'"></app-product>
-      <app-product [imageSrc]="'../../../assets/homepage/h4.png'"></app-product>
-      <app-product [imageSrc]="'../../../assets/homepage/h4.png'"></app-product>
-      <app-product [imageSrc]="'../../../assets/homepage/h1.png'"></app-product>
+    <div class="div-42" #scrollContainer> 
+      <app-product *ngFor="let product of products" [imageSrc]="'../../../assets/homepage/h2.png'" [pName]="product.ProductName" [pPrice]="product.PriceINR"></app-product>
     </div>
     <div class="div-110">View All Products</div>
     <div class="div-111"></div>
@@ -98,10 +93,7 @@
     </div>
     <div class="div-140">
       <div class="div-141">
-        <app-product [imageSrc]="'../../../assets/homepage/h5.png'"></app-product>
-        <app-product [imageSrc]="'../../../assets/homepage/h6.png'"></app-product>
-        <app-product [imageSrc]="'../../../assets/homepage/h7.png'"></app-product>
-        <app-product [imageSrc]="'../../../assets/homepage/h8.png'"></app-product>
+        <app-product *ngFor="let product of products.slice(0, 4)" [imageSrc]="'../../../assets/homepage/h2.png'" [pName]="product.ProductName" [pPrice]="product.PriceINR"></app-product>
       </div>
     </div>
     <img loading="lazy"
@@ -126,14 +118,7 @@
     </div>
     <div class="div-175">
       <div class="div-176">
-        <app-product [imageSrc]="'../../../assets/homepage/h9.png'"></app-product>
-        <app-product [imageSrc]="'../../../assets/homepage/h10.png'"></app-product>
-        <app-product [imageSrc]="'../../../assets/homepage/h11.png'"></app-product>
-        <app-product [imageSrc]="'../../../assets/homepage/h12.png'"></app-product>
-        <app-product [imageSrc]="'../../../assets/homepage/h13.png'"></app-product>
-        <app-product [imageSrc]="'../../../assets/homepage/h14.png'"></app-product>
-        <app-product [imageSrc]="'../../../assets/homepage/h15.png'"></app-product>
-        <app-product [imageSrc]="'../../../assets/homepage/h16.png'"></app-product>
+        <app-product *ngFor="let product of products.slice(0, 8)" [imageSrc]="'../../../assets/homepage/h2.png'" [pName]="product.ProductName" [pPrice]="product.PriceINR"></app-product>
       </div>
     </div>
     <div class="div-247">View All Products</div>
