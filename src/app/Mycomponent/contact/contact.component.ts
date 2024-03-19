@@ -25,7 +25,6 @@ export class ContactComponent implements OnInit{
     this.myservice.contactUs(formData).subscribe(
       (response:any) => {
         console.log('Response:', response);
-        alert("Your message has been sent successfully!");
       }
     );
   }

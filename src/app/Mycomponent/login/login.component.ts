@@ -24,7 +24,6 @@ export class LoginComponent implements OnInit{
   ngOnInit(): void {}
 
   login() {
-    alert("Login button works!");
     this.myservice.login(this.formData).subscribe(
       (response: any) => {
         if (response.success) {

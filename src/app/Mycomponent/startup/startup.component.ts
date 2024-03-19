@@ -30,5 +30,6 @@ export class StartupComponent {
   logout(){
     console.log("Logged Out!");
     this.myservice.logoutUser();
+    this.router.navigate(['/login']);
   }
 }
